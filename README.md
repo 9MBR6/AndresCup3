@@ -2,6 +2,7 @@
 
 **Motor Utilizado:** RPG Maker XP
 **Tutoriales:** [https://www.youtube.com/watch?v=LveDeFobPhQ&list=PLuIp7Uf7pllkGcTagQXREZ1Z3oQ49QQxc](https://www.youtube.com/watch?v=LveDeFobPhQ&list=PLuIp7Uf7pllkGcTagQXREZ1Z3oQ49QQxc)
+
 **Documentación:** [https://docs.google.com/document/d/1GuPa20SpsA2iPkiRmJ6hVXljSU2uGvmlMF0AFgRuvIM/edit](https://docs.google.com/document/d/1GuPa20SpsA2iPkiRmJ6hVXljSU2uGvmlMF0AFgRuvIM/edit)
 
 > Base de Pokémon Essentials en Español creada sobre la versión 21.1  
