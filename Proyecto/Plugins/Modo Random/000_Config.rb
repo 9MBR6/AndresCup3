@@ -69,7 +69,7 @@ module RandomizedChallenge
   
   # Pokémon que no pueden salir en el modo Random. Añade aquí los que no quieres que salgan
   # con el mismo formato de los que ya aparecen.
-  BlackListedPokemon = [:MEW, :ARCEUS]
+  BlackListedPokemon = []
   
   # Lista de los únicos Pokémon que pueden aparecer en el modo Random. Si la dejas VACÍA,
   # aparecerán todos los Pokémon del juego SALVO los que añadas a la lista que hay

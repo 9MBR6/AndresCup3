@@ -117,3 +117,16 @@ Pokemon = CHARIZARD,63
     Item = SITRUSBERRY
 Pokemon = BLASTOISE,63
     Item = SITRUSBERRY
+#-------------------------------
+[ORNITOLOGO_Lance,Lance]
+LoseText = Debería haberme dedicado a los dragones...
+Pokemon = NATU,45
+Pokemon = PIDOVE,46
+Pokemon = ROWLET,45
+Pokemon = SQUAWKABILLY,47
+    Item = FLAMEORB
+	AbilityIndex = 4
+Pokemon = CRAMORANT,47
+    Moves = SURF,DIVE
+Pokemon = FARFETCHD,46
+    Item = LEEK

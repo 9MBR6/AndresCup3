@@ -399,3 +399,10 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Champion
 VictoryBGM = Battle victory leader
+#-------------------------------
+[ORNITOLOGO_Lance]
+Name = Ornitólogo
+Gender = Male
+BaseMoney = 100
+SkillLevel = 100
+IntroBGM = gokuUI
