@@ -845,7 +845,7 @@ FormName = Mega Blaziken
 MegaStone = BLAZIKENITE
 BaseStats = 80,160,80,100,130,80
 BaseExp = 315
-Abilities = SPEEDBOOST
+Abilities = PUREPOWER
 Generation = 6
 #-------------------------------
 [SWAMPERT,1]

@@ -1,9 +1,18 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [CAMPER,Liam]
-LoseText = ¡Qué gran combate!
-Pokemon = DIGLETT,10
-Pokemon = BONSLY,11
+LoseText = se ha intentao
+Pokemon = GLIMMORA,46
+	Moves = SPIKES, TOXICSPIKES
+    AbilityIndex = 0
+Pokemon = AGGRON,46
+	Moves = STEALTHROCK, ROAR
+Pokemon = ZOROARK,46
+	Moves = ROAR, CONFUSERAY
+Pokemon = TINGLU,46
+	Moves = SPIKES, WHIRLWIND
+Pokemon = SKARMORY,46
+	Moves = SPIKES, STEALTHROCK
 #-------------------------------
 [LEADER_Brock,Brock]
 Items = FULLRESTORE,FULLRESTORE
@@ -130,3 +139,46 @@ Pokemon = CRAMORANT,47
     Moves = SURF,DIVE
 Pokemon = FARFETCHD,46
     Item = LEEK
+#-------------------------------
+[TEAMROCKET_M,Jaume]
+LoseText = Una ostia consagrada es una cristomoneda?
+Pokemon = CLODSIRE,45
+	Moves = TOXIC
+	AbilityIndex = 1
+Pokemon = PECHARUNT,45
+	Moves = TOXIC
+Pokemon = TOXAPEX,45
+	Moves = TOXIC	
+Pokemon = SALAZZLE,45
+	Moves = TOXIC
+Pokemon = PYUKUMUKU,45
+	Moves = TOXIC	
+	AbilityIndex = 0
+Pokemon = GARBODOR,45
+	Moves = TOXIC	
+	AbilityIndex = 2
+#-------------------------------
+[WANHEDA,WANHEDA]
+LoseText = Wanheda... signfica...
+Pokemon = AZUMARILL,46
+	Name = DañoHepátic
+	Item = CHOICESCARF
+	AbilityIndex = 3
+Pokemon = EMPOLEON,46
+	Name = Nico
+	Item = LEFTOVERS
+	Moves = TOXIC,KINGSSHIELD,STEALTHROCK	
+	AbilityIndex = 3
+Pokemon = BLISSEY,47
+	Name = Huevona
+	Item = SITRUSBERRY
+	Moves = HEALBELL,SLACKOFF,STEALTHROCK,UTURN	
+Pokemon = TORTERRA,46
+	Name = A'Tuin
+	Item = ROCKYHELMET
+	Moves = RAPIDSPIN,SLACKOFF,NIGHTSHADE,UTURN	
+	AbilityIndex = 3
+Pokemon = BLAZIKEN,47
+	Name = Poio
+	Form = 1
+	Moves = MACHPUNCH,FAKEOUT,CLOSECOMBAT,UTURN	

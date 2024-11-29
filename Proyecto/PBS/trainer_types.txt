@@ -295,9 +295,10 @@ BaseMoney = 60
 SkillLevel = 32
 #-------------------------------
 [TEAMROCKET_M]
-Name = Team Rocket
+Name = Tóxico
 Gender = Male
-BaseMoney = 32
+BaseMoney = 69
+IntroBGM = poya
 #-------------------------------
 [TEAMROCKET_F]
 Name = Team Rocket
@@ -406,3 +407,10 @@ Gender = Male
 BaseMoney = 100
 SkillLevel = 100
 IntroBGM = gokuUI
+#-------------------------------
+[WANHEDA]
+Name = Líder de Gimnasio
+Gender = Male
+BaseMoney = 200
+BattleBGM = wanheda
+VictoryBGM = Battle victory leader
