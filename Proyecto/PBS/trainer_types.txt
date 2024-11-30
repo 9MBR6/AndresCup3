@@ -79,7 +79,7 @@ BaseMoney = 48
 [FISHERMAN]
 Name = Pescador
 Gender = Male
-BaseMoney = 32
+BaseMoney = 70
 #-------------------------------
 [GAMBLER]
 Name = Jugón
@@ -413,4 +413,28 @@ Name = Líder de Gimnasio
 Gender = Male
 BaseMoney = 200
 BattleBGM = wanheda
+SkillLevel = 100
 VictoryBGM = Battle victory leader
+#-------------------------------
+[ESCUADRON]
+Name = Escuadrón
+Gender = Unknown
+SkillLevel = 100
+BaseMoney = 200
+#-------------------------------
+[TEEMO]
+Name = Setero
+Gender = Male
+SkillLevel = 100
+BaseMoney = 100
+#-------------------------------
+[TOM]
+Name = Tom
+Gender = Male
+SkillLevel = 100
+BaseMoney = 500
+#-------------------------------
+[POLILLA]
+Name = Polilla
+Gender = Unknown
+BaseMoney = 100

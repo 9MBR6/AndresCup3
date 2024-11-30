@@ -73,7 +73,6 @@ LoseText = ¡Eres muy fuerte para mí!
 Pokemon = MACHOP,19
 #-------------------------------
 [FISHERMAN,Andrew]
-LoseText = ¡Perdí!
 Pokemon = MAGIKARP,14
 Pokemon = MAGIKARP,18
 #-------------------------------
@@ -158,8 +157,8 @@ Pokemon = GARBODOR,45
 	Moves = TOXIC	
 	AbilityIndex = 2
 #-------------------------------
-[WANHEDA,WANHEDA]
-LoseText = Wanheda... signfica...
+[WANHEDA,Wanheda]
+LoseText = Wakanda... signfica...
 Pokemon = AZUMARILL,46
 	Name = DañoHepátic
 	Item = CHOICESCARF
@@ -182,3 +181,51 @@ Pokemon = BLAZIKEN,47
 	Name = Poio
 	Form = 1
 	Moves = MACHPUNCH,FAKEOUT,CLOSECOMBAT,UTURN	
+#-------------------------------
+[ESCUADRON,Squirtle]
+LoseText = escuero
+Items = SUPERPOTION
+Pokemon = SQUIRTLE,45
+	Moves = WATERGUN, SHELLSMASH, GYROBALL
+Pokemon = SQUIRTLE,46
+	Moves = WATERGUN, SHELLSMASH, GYROBALL
+Pokemon = SQUIRTLE,45
+	Moves = WATERGUN, SHELLSMASH, GYROBALL
+Pokemon = SQUIRTLE,46
+	Moves = WATERGUN, SHELLSMASH, GYROBALL
+Pokemon = SQUIRTLE,50
+	Moves = WAVECRASH, SHELLSMASH, GYROBALL
+	IV = 31,31,31,31,31,31
+    Shiny = true
+#-------------------------------
+[TEEMO,Teemo]
+LoseText = Nunca subestimes el poder del código de los exploradores
+Pokemon = PARASECT, 47
+Pokemon = AMOONGUSS, 48
+Pokemon = SHIINOTIC, 47
+Pokemon = TOEDSCRUEL, 48
+Pokemon = BRELOOM, 48
+Pokemon = BRUTEBONNET, 49
+#-------------------------------
+[TOM,Nook]
+Pokemon = PERSIAN, 48
+	Form = 1
+	Moves = PAYDAY
+Pokemon = GHOLDENGO, 48
+	Moves = MAKEITRAIN
+#-------------------------------
+[FISHERMAN,Joaquín]
+LoseText = Ya te dije que lo mio es pescar no entrenar pokémon fuertes
+Pokemon = GOREBYSS, 47
+Pokemon = LUVDISC, 47
+Pokemon = LUMINEON, 47
+Pokemon = BARRASKEWDA, 47
+#-------------------------------
+[POLILLA,Man]
+Pokemon = VENOMOTH, 47
+Pokemon = VOLCARONA, 49
+Pokemon = MOTHIM, 47
+Pokemon = DUSTOX, 48
+Pokemon = FROSMOTH, 49
+Pokemon = LANTURN, 50
+	    Shiny = true
