@@ -423,6 +423,7 @@ Weather = Snow,100
 Environment = Ice
 #-------------------------------
 [101]   # Matavacas gym
+Name = Matavacas gym
 #-------------------------------
 [102]   # ruta 108
 Name = Ruta 108

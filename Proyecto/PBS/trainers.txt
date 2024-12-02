@@ -220,12 +220,3 @@ Pokemon = GOREBYSS, 47
 Pokemon = LUVDISC, 47
 Pokemon = LUMINEON, 47
 Pokemon = BARRASKEWDA, 47
-#-------------------------------
-[POLILLA,Man]
-Pokemon = VENOMOTH, 47
-Pokemon = VOLCARONA, 49
-Pokemon = MOTHIM, 47
-Pokemon = DUSTOX, 48
-Pokemon = FROSMOTH, 49
-Pokemon = LANTURN, 50
-	    Shiny = true
