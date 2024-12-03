@@ -438,3 +438,8 @@ BaseMoney = 500
 Name = Polilla
 Gender = Unknown
 BaseMoney = 100
+#-------------------------------
+[ENFERMERA]
+Name = Enfermera
+Gender = Female
+BaseMoney = 100

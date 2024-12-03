@@ -220,3 +220,32 @@ Pokemon = GOREBYSS, 47
 Pokemon = LUVDISC, 47
 Pokemon = LUMINEON, 47
 Pokemon = BARRASKEWDA, 47
+#-------------------------------
+[ENFERMERA,Joy]
+LoseText = Al menos puedo curar a mis pokémon fácilmente
+Pokemon = MILTANK, 47
+Pokemon = COMFEY, 47
+	AbilityIndex = 1
+Pokemon = CHANSEY, 50
+	AbilityIndex = 0
+	Item = EVIOLITE
+Pokemon = SINISTCHA, 47
+	AbilityIndex = 0
+Pokemon = AUDINO, 47
+	AbilityIndex = 0
+#-------------------------------
+[POKEMANIAC,Ronaldo]
+LoseText = O mentalidad do lobo: "eu debo lamer os mios colhones da immediãto"
+Pokemon = KLAWF, 47
+	AbilityIndex = 2
+Pokemon = SLOWKING, 47
+	Form = 1
+	AbilityIndex = 0
+Pokemon = RABSCA, 48
+	Moves = PSYCHIC, REVIVALBLESSING, STRUGGLEBUG, BUGBUZZ 
+Pokemon = GLISCOR, 48
+	Item = TOXICORB
+	AbilityIndex = 2
+Pokemon = PAWMOT, 48
+	Moves = DOUBLESHOCK, REVIVALBLESSING, REST, NUZZLE 
+	AbilityIndex = 0
