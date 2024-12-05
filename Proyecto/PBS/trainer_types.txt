@@ -182,11 +182,16 @@ BaseMoney = 16
 Name = Entrenador Guay
 Gender = Male
 BaseMoney = 60
+BaseMoney = 300
+SkillLevel = 100
+BattleBGM = mus_undyneboss
 #-------------------------------
 [COOLTRAINER_F]
-Name = Entrenador Guay
+Name = Ventisca
 Gender = Female
-BaseMoney = 60
+BaseMoney = 300
+SkillLevel = 100
+BattleBGM = mus_undyneboss
 #-------------------------------
 [YOUNGSTER]
 Name = Joven
@@ -388,9 +393,10 @@ BattleBGM = Battle Elite
 VictoryBGM = Battle victory leader
 #-------------------------------
 [ELITEFOUR_Lance]
-Name = Alto Mando
+Name = Domadragón
 Gender = Male
-BaseMoney = 100
+BaseMoney = 150
+IntroBGM = gokuUI
 BattleBGM = Battle Elite
 VictoryBGM = Battle victory leader
 #-------------------------------
@@ -442,4 +448,17 @@ BaseMoney = 100
 [ENFERMERA]
 Name = Enfermera
 Gender = Female
+BaseMoney = 100
+#-------------------------------
+[MATAVACAS]
+Name = Líder de Gimnasio
+Gender = Female
+BaseMoney = 200
+BattleBGM = matavacas
+SkillLevel = 100
+VictoryBGM = Battle victory leader
+#-------------------------------
+[IGGLYBUFF]
+Name = Grupo de
+Gender = Unknown
 BaseMoney = 100

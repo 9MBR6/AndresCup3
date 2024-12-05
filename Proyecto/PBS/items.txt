@@ -6370,8 +6370,8 @@ Flags = KeyItem
 Description = Un mapa viejo descolorido que muestra el camino a una determinada isla.
 #-------------------------------
 [BLACKAUGURITE]
-Name = Mineral Negro
-NamePlural = Minerales Negros
+Name = Triángulo
+NamePlural = Triángulos
 Pocket = 1
 Price = 2100
 FieldUse = OnPokemon

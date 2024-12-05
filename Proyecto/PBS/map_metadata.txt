@@ -428,15 +428,16 @@ Name = Matavacas gym
 [102]   # ruta 108
 Name = Ruta 108
 Outdoor = true
+ShowArea = true
 Weather = Blizzard,100
+BattleBack = snow
 Environment = Snow
 #-------------------------------
 [103]   # Arrakis
 Name = Arrakis
 Outdoor = true
 ShowArea = true
-Weather = Sandstorm,50
-Environment = Sand
+Environment = Rock
 #-------------------------------
 [105]   # ruta 109
 Name = Ruta 109
