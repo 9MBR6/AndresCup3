@@ -100,7 +100,7 @@ BaseMoney = 32
 [JUGGLER]
 Name = Malabarista
 Gender = Male
-BaseMoney = 32
+BaseMoney = 100
 #-------------------------------
 [LADY]
 Name = Chica
@@ -232,8 +232,8 @@ SkillLevel = 32
 [SWIMMER_F]
 Name = Nadadora
 Gender = Female
-BaseMoney = 16
-SkillLevel = 32
+BaseMoney = 100
+SkillLevel = 100
 #-------------------------------
 [SWIMMER2_M]
 Name = Nadador
@@ -462,3 +462,23 @@ VictoryBGM = Battle victory leader
 Name = Grupo de
 Gender = Unknown
 BaseMoney = 100
+#-------------------------------
+[SIMONE]
+Name = Cantante de ópera
+Gender = Female
+BaseMoney = 100
+BattleBGM = A Beautiful Song
+#-------------------------------
+[HIERBAS]
+Name = La
+Gender = Female
+SkillLevel = 100
+BaseMoney = 100
+#-------------------------------
+[KIKE]
+Name = Líder de Gimnasio
+Gender = Male
+BaseMoney = 200
+BattleBGM = kike
+SkillLevel = 100
+VictoryBGM = Battle victory leader

@@ -323,3 +323,11 @@ Land,21
 [102] # Ruta 108
 Cave,5
     100,PIKACHU,50,55
+#-------------------------------
+[122] # cova cascada
+Cave,5
+    100,PIKACHU,50,55
+#-------------------------------
+[120] # Boss arena
+RockSmash,100
+    100,PIKACHU,50,55

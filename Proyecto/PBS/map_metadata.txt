@@ -450,3 +450,8 @@ Environment = Sand
 Name = Calle Victoria
 ShowArea = true
 Environment = Graveyard
+#-------------------------------
+[120]   # Boss arena
+Name = Boss arena
+BattleBack = cave1
+Environment = Cave

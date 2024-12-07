@@ -2004,7 +2004,7 @@ Description = Es un puerro muy largo que suele llevar Farfetch'd. Aumenta la pro
 Name = Rocío Bondad
 NamePlural = Rocíos Bondad
 Pocket = 1
-Price = 0
+Price = 4000
 Flags = Fling_30
 Description = Un orbe fantástico que deben llevar Latios o Latias. Sube el At. Esp. y la Def. Esp.
 #-------------------------------
@@ -6489,7 +6489,7 @@ Description = Fragmento de lo que parece una cuchilla desgastada. Permite evoluc
 Name = Energía Potenciadora
 NamePlural = Energías Potenciadoras
 Pocket = 1
-Price = 0
+Price = 4000
 Flags = Fling_30
 Description = Tanque que contiene energía. Si lo lleva un Pokémon que posea cierta habilidad, potenciará su poder.
 #-------------------------------
@@ -6505,7 +6505,7 @@ Description = Escudo muy bonito que impide que otros Pokémon cambien la habilid
 Name = Amuleto Puro
 NamePlural = Amuletos Puros
 Pocket = 1
-Price = 30000
+Price = 4000
 Flags = Fling_30
 Description = Amuleto brillante y transparente. Impide que otros Pokémon reduzcan las características de quien lo lleva.
 #-------------------------------
@@ -6513,7 +6513,7 @@ Description = Amuleto brillante y transparente. Impide que otros Pokémon reduzc
 Name = Hierba Copia
 NamePlural = Hierbas Copia
 Pocket = 1
-Price = 30000
+Price = 3000
 Flags = Fling_30
 Description = Quien la lleva aumenta sus características si el rival aumenta las suyas. De un solo uso.
 #-------------------------------
@@ -6521,7 +6521,7 @@ Description = Quien la lleva aumenta sus características si el rival aumenta la
 Name = Guante de Boxeo
 NamePlural = Guantes de Boxeo
 Pocket = 1
-Price = 15000
+Price = 4000
 Flags = Fling_30
 Description = Guante que aumenta la potencia de los movimientos con puños y evita que hagan contacto con el rival.
 #-------------------------------
@@ -6529,7 +6529,7 @@ Description = Guante que aumenta la potencia de los movimientos con puños y evi
 Name = Capa Furtiva
 NamePlural = Capas Furtivas
 Pocket = 1
-Price = 20000
+Price = 4000
 Flags = Fling_30
 Description = Capa con capucha que protege de los efectos secundarios de los movimientos de sus rivales.
 #-------------------------------
@@ -6537,7 +6537,7 @@ Description = Capa con capucha que protege de los efectos secundarios de los mov
 Name = Dado Trucado
 NamePlural = Dado Trucado
 Pocket = 1
-Price = 20000
+Price = 4000
 Flags = Fling_30
 Description = Dado que siempre cae favorablemente. Los movimientos de ataque múltiple golpearán más veces.
 #-------------------------------
