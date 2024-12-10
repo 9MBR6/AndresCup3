@@ -38,9 +38,11 @@
 47,East,8,52,West,0
 # Ruta 8 (69) - Afueras Zona Safari (66)
 69,North,0,66,South,10
+# Marina Door (97) - ruta 107 (99)
+97,West,15,99,East,0
 # ruta 107 (99) - Ciudad fresquiño (100)
 99,South,1,100,North,0
 # ruta 108 (102) - Ciudad fresquiño (100)
 102,North,0,100,South,28
-# Marina Door (97) - ruta 107 (99)
-97,West,15,99,East,0
+# ruta 109 (105) - Arrakis (103)
+105,West,0,103,East,8

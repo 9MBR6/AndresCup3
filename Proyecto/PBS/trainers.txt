@@ -196,6 +196,7 @@ Pokemon = SQUIRTLE,46
 Pokemon = SQUIRTLE,50
 	Moves = WAVECRASH, SHELLSMASH, GYROBALL
 	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
     Shiny = true
 #-------------------------------
 [TEEMO,Teemo]
@@ -206,6 +207,19 @@ Pokemon = SHIINOTIC, 47
 Pokemon = TOEDSCRUEL, 48
 Pokemon = BRELOOM, 48
 Pokemon = BRUTEBONNET, 49
+#-------------------------------
+[POLILLA,Man]
+Pokemon = VENOMOTH, 47
+Pokemon = VOLCARONA, 49
+Pokemon = MOTHIM, 47
+Pokemon = DUSTOX, 48
+Pokemon = FROSMOTH, 49
+Pokemon = LANTURN, 50
+	Moves = SCALD,VOLTSWITCH,DISCHARGE	
+	AbilityIndex = 0
+	IV = 31,31,31,31,31,31
+	EV = 252,0,0,0,252,0
+	Shiny = true
 #-------------------------------
 [TOM,Nook]
 Pokemon = PERSIAN, 48
@@ -423,7 +437,7 @@ Pokemon = WOCHIEN,55
 	Moves = FOULPLAY,STUNSPORE,POISONPOWDER,GIGADRAIN
 #-------------------------------
 [KIKE,Kike]
-LoseText = ...
+LoseText = Ainda vai ser culpa miña perder
 Pokemon = METAGROSS,54
 	Name = Cohete
 	Item = OCCABERRY
@@ -449,8 +463,64 @@ Pokemon = INFERNAPE,54
 	Item = FOCUSSASH
 	Moves = UTURN,LANDSWRATH,FLAREBLITZ,STEALTHROCK	
 	AbilityIndex = 3			
-Pokemon = SCIZOR,49
+Pokemon = SCIZOR,55
 	Name = Tijeras
 	Form = 1
 	Moves = UTURN,BONERUSH,BULLETPUNCH,RAZORSHELL	
 	AbilityIndex = 3
+#-------------------------------
+[SHAIHULUD,Shai-Hulud]
+Pokemon = ORTHWORM,70
+	Moves = HEAVYSLAM,IRONDEFENSE,BODYPRESS,DIG	
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+#-------------------------------
+[GOJIRA,Godzilla]
+Pokemon = TYRANITAR,80
+	Moves = ROCKSLIDE,BITE,HYPERBEAM,REST
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+#-------------------------------
+[COOLTRAINER_M,Enjoyer]
+LoseText = ... Igual debería levear con esos orthworm de por ahí
+Pokemon = TYRANITAR,55
+	Item = ASSAULTVEST
+	AbilityIndex = 2
+	Moves = ROCKSLIDE,KNOCKOFF,ICEPUNCH,STONEEDGE
+	IV = 31,31,31,31,31,31
+	EV = 252,252,0,0,0,0
+	Shiny = true
+Pokemon = MINIOR,55
+	Item = WHITEHERB
+	Moves = SHELLSMASH,ACROBATICS,ROCKSLIDE,EXPLOSION
+	IV = 31,31,31,31,31,31
+	EV = 252,0,0,0,0,252
+	Shiny = true
+Pokemon = EXCADRILL,55
+	Item = LIFEORB
+	AbilityIndex = 0
+	Moves = IRONHEAD,DRILLRUN,SWORDSDANCE,SHADOWCLAW
+	IV = 31,31,31,31,31,31
+	EV = 0,252,0,0,0,252
+	Shiny = true
+Pokemon = SANDYGAST,55
+	Item = ROCKYHELMET
+	AbilityIndex = 2
+	Moves = SCORCHINGSANDS,SHOREUP,STEALTHROCK,GRAVITY
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,0,0,0
+	Shiny = true
+Pokemon = GARCHOMP,55
+	Item = CHOICESCARF
+	AbilityIndex = 0
+	Moves = EARTHQUAKE,ROCKSLIDE,DRAGONCLAW,FIREFANG
+	IV = 31,31,31,31,31,31
+	EV = 0,252,0,0,0,252
+	Shiny = true
+Pokemon = HOUNDSTONE,55
+	Item = FOCUSSASH
+	AbilityIndex = 0
+	Moves = LASTRESPECTS,PLAYROUGH,DESTINYBOND,CRUNCH
+	IV = 31,31,31,31,31,31
+	EV = 0,252,0,0,0,252
+	Shiny = true

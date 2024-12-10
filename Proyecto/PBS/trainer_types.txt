@@ -179,9 +179,8 @@ Gender = Female
 BaseMoney = 16
 #-------------------------------
 [COOLTRAINER_M]
-Name = Entrenador Guay
+Name = Tormenta arena
 Gender = Male
-BaseMoney = 60
 BaseMoney = 300
 SkillLevel = 100
 BattleBGM = mus_undyneboss
@@ -481,4 +480,25 @@ Gender = Male
 BaseMoney = 200
 BattleBGM = kike
 SkillLevel = 100
+VictoryBGM = Battle victory leader
+#-------------------------------
+[SHAIHULUD]
+Name = Gusano de arena
+Gender = Unknown
+BaseMoney = 100
+IntroBGM = dune-scream
+#-------------------------------
+[GOJIRA]
+Name = Rey de los monstruos
+Gender = Unknown
+BattleBGM = gojira
+BaseMoney = 100
+#-------------------------------
+[CINTIA]
+Name = Campeona de otra liga
+Gender = Female
+BaseMoney = 200
+SkillLevel = 100
+IntroBGM = CINTIA
+BattleBGM = CINTIA
 VictoryBGM = Battle victory leader

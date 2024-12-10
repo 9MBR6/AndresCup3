@@ -526,7 +526,7 @@ Description = Pepita grande de oro puro que desprende un brillo espectacular. Mu
 Name = Escama Corazón
 NamePlural = Escamas Corazón
 Pocket = 1
-Price = 100
+Price = 3000
 Flags = Fling_30
 Description = Bella escama con forma de corazón que brilla con los colores del arco iris. Es muy poco común.
 #-------------------------------

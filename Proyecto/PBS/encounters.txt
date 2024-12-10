@@ -331,3 +331,11 @@ Cave,5
 [120] # Boss arena
 RockSmash,100
     100,PIKACHU,50,55
+#-------------------------------
+[105] # ruta 109
+Cave,5
+    100,PIKACHU,55,60
+#-------------------------------
+[107] # calle victoria
+Cave,5
+    100,PIKACHU,55,60

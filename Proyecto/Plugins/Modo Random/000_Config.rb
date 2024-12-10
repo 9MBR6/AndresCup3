@@ -43,7 +43,7 @@ module RandomizedChallenge
   # BST PROGRESIVO DE POKÉMON RANDOMIZADOS
   # Los BST de cada medalla se definen en getMaxBSTCap.
   # Desactiva esto en cualquier momento con toggle_progressive_random.
-  PROGRESSIVE_RANDOM_DEFAULT_VALUE = true
+  PROGRESSIVE_RANDOM_DEFAULT_VALUE = false
 
   # MOVIMIENTOS RANDOMIZADOS
   # Si quieres que los movimientos esten randomizados pon esta constante en true.
@@ -78,7 +78,7 @@ module RandomizedChallenge
   
   # Lista de movimientos que no pueden aparecer en el modo Random.
   # Debes añadirlos con el nombre interno que aparece en el PBS moves.txt.
-  MOVEBLACKLIST=[:CHATTER, :DIG, :TELEPORT, :SONICBOOM, :DRAGONRAGE, :STRUGGLE]
+  MOVEBLACKLIST=[:TELEPORT, :SONICBOOM, :DRAGONRAGE, :STRUGGLE, :GUILLOTINE, :FISSURE, :HORNDRILL, :SHEERCOLD, :CELEBRATE, :HOLDHANDS]
   
   # Lista de posibles Pokémon que aparecerán como Pokémon Iniciales.
   ListaStartersRandomizado = [
@@ -112,7 +112,7 @@ module RandomizedChallenge
   # Lista de habilidades que no pueden aparecer en el modo Random.
   # Debes añadirlas con el nombre interno que aparece en el PBS abilities.txt.
   ABILITY_EXCLUSIONS = [
-    :IMPOSTER, :PLUS, :MINUS, :WONDERGUARD, :FORECAST, :HARVEST, :HONEYGATHER,
+    :WONDERGUARD,:FORECAST,
     :BATTLEBOND,:HUNGERSWITCH,:SHIELDSDOWN,:SCHOOLING,:RKSSYSTEM,:POWERCONSTRUCT, 
     :STANCECHANGE, :ZENMODE,:COMMANDER, :MULTITYPE, :GULPMISSILE, :ICEFACE, :ZEROTOHERO, :DISGUISE
   ]
