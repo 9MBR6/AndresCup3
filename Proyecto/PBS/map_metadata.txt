@@ -449,9 +449,15 @@ Environment = Sand
 [107]   # calle victoria
 Name = Calle Victoria
 ShowArea = true
-Environment = Graveyard
+BattleBack = cave1
+Environment = Cave
 #-------------------------------
 [120]   # Boss arena
 Name = Boss arena
 BattleBack = cave1
 Environment = Cave
+#-------------------------------
+[124]   # sidequest
+Name = sidequest
+DarkMap = true
+BattleBack = distortion

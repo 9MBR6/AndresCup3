@@ -969,7 +969,7 @@ Types = DRAGON,FAIRY
 BaseStats = 75,110,110,80,110,105
 BaseExp = 207
 Abilities = PIXILATE
-HiddenAbilities = PIXILATE
+HiddenAbilities = PIXILATE,TOUGHCLAWS
 Height = 1.5
 Generation = 6
 #-------------------------------
@@ -1165,7 +1165,7 @@ Types = NORMAL,FIGHTING
 BaseStats = 65,136,94,135,54,96
 BaseExp = 203
 Abilities = SCRAPPY
-HiddenAbilities = SCRAPPY
+HiddenAbilities = SCRAPPY,SPEEDBOOST
 Height = 1.3
 Weight = 28.3
 Generation = 6
@@ -1420,7 +1420,7 @@ TutorMoves = ALLYSWITCH,ATTRACT,BRUTALSWING,CALMMIND,CAPTIVATE,CONFIDE,DARKPULSE
 Pokedex = Yamask ha sido poseído por una tabla de arcilla sobre la que pesa una maldición. Se dice que absorbe y se nutre de rencor e inquina.
 Generation = 8
 Flags = InheritFormWithEverStone
-Evolutions = RUNERIGUS,EventAfterDamageTaken,2
+Evolutions = RUNERIGUS,EventAfterDamageTaken,2,RUNERIGUS,Level,35
 #-------------------------------
 [DEERLING,1]
 FormName = Forma Verano
@@ -2474,7 +2474,7 @@ EggMoves = ACIDSPRAY,AQUAJET,AQUATAIL,ASTONISH,BUBBLEBEAM,FLAIL,HAZE,SELFDESTRUC
 Pokedex = Segrega veneno a través de las agujas, razón por la que los pescadores lo odian. Los ejemplares de otras regiones presentan una forma diferente.
 Generation = 8
 Flags = InheritFormWithEverStone
-Evolutions = OVERQWIL,LevelUseMoveCount,BARBBARRAGE
+Evolutions = OVERQWIL,LevelUseMoveCount,BARBBARRAGE,OVERQWIL,Level,32
 #-------------------------------
 [SNEASEL,1]
 FormName = Forma Hisui

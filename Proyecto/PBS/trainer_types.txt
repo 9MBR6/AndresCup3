@@ -3,7 +3,8 @@
 [POKEMONTRAINER_Red]
 Name = Entrenador Pokémon
 Gender = Male
-BaseMoney = 60
+BaseMoney = 100
+SkillLevel = 100
 #-------------------------------
 [POKEMONTRAINER_Leaf]
 Name = Entrenador Pokémon
@@ -53,7 +54,8 @@ BaseMoney = 32
 [BUGCATCHER]
 Name = Cazabichos
 Gender = Male
-BaseMoney = 16
+BaseMoney = 100
+SkillLevel = 100
 #-------------------------------
 [BURGLAR]
 Name = Ladrón
@@ -62,9 +64,11 @@ BaseMoney = 88
 SkillLevel = 32
 #-------------------------------
 [CHANNELER]
-Name = Exorcista
+Name = Sacerdotisa
 Gender = Female
-BaseMoney = 32
+BaseMoney = 100
+SkillLevel = 100
+BattleBGM = Bad apple
 #-------------------------------
 [CUEBALL]
 Name = Calvo
@@ -79,7 +83,7 @@ BaseMoney = 48
 [FISHERMAN]
 Name = Pescador
 Gender = Male
-BaseMoney = 70
+BaseMoney = 100
 #-------------------------------
 [GAMBLER]
 Name = Jugón
@@ -116,7 +120,7 @@ BaseMoney = 16
 [POKEMANIAC]
 Name = Poké maníaco
 Gender = Male
-BaseMoney = 64
+BaseMoney = 100
 #-------------------------------
 [POKEMONBREEDER]
 Name = Criapokémon
@@ -136,7 +140,7 @@ BaseMoney = 24
 [RUINMANIAC]
 Name = Ruinmaníaco
 Gender = Male
-BaseMoney = 48
+BaseMoney = 100
 #-------------------------------
 [SAILOR]
 Name = Marinero
@@ -151,7 +155,7 @@ BaseMoney = 48
 [SUPERNERD]
 Name = Cerebrito
 Gender = Male
-BaseMoney = 48
+BaseMoney = 100
 #-------------------------------
 [TAMER]
 Name = Domador
@@ -161,7 +165,8 @@ BaseMoney = 40
 [BLACKBELT]
 Name = Karateka
 Gender = Male
-BaseMoney = 32
+BaseMoney = 100
+SkillLevel = 100
 #-------------------------------
 [CRUSHGIRL]
 Name = Luchadora
@@ -220,7 +225,8 @@ BaseMoney = 32
 [PSYCHIC_F]
 Name = Médium
 Gender = Female
-BaseMoney = 32
+BaseMoney = 100
+SkillLevel = 100
 #-------------------------------
 [SWIMMER_M]
 Name = Nadador
@@ -497,8 +503,58 @@ BaseMoney = 100
 [CINTIA]
 Name = Campeona de otra liga
 Gender = Female
-BaseMoney = 200
+BaseMoney = 300
 SkillLevel = 100
 IntroBGM = CINTIA
 BattleBGM = CINTIA
+VictoryBGM = Battle victory leader
+#-------------------------------
+[MEWTWO]
+Name = Pokémon artificial
+Gender = Unknown
+BaseMoney = 100
+SkillLevel = 100
+#-------------------------------
+[JESSIEJAMES]
+Name = Jessie y 
+Gender = Unknown
+IntroBGM = jessiejames
+BaseMoney = 100
+SkillLevel = 100
+#-------------------------------
+[ASH]
+Name = Campeón mundial
+Gender = Male
+BaseMoney = 200
+SkillLevel = 100
+BattleBGM = Ash
+#-------------------------------
+[MIKU]
+Name = Hatsune
+Gender = Female
+BaseMoney = 500
+SkillLevel = 100
+IntroBGM = Miku
+BattleBGM = Miku
+#-------------------------------
+[SLAKING]
+Name = Pokémon holgazán
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = slaking
+#-------------------------------
+[SASI1]
+Name = Alto Mando
+Gender = Male
+SkillLevel = 100
+BaseMoney = 100
+BattleBGM = mus_x_undyne
+VictoryBGM = Battle victory leader
+#-------------------------------
+[SASI2]
+Name = Alto Mando
+Gender = Male
+SkillLevel = 100
+BaseMoney = 100
+BattleBGM = SwSh 115 Battle! (Battle Tower)
 VictoryBGM = Battle victory leader

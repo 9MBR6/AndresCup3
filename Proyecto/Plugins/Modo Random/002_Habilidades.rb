@@ -5,19 +5,19 @@
 #-------------------------------------------------------------------------------
 # Override game switch logic to randomize data when value changed
 #-------------------------------------------------------------------------------
-class Game_Switches
-  alias __randomize__set_switch []= unless method_defined?(:__randomize__set_switch)
-  def []=(switch_id, value)
-    old_value = self[switch_id]
-    ret = __randomize__set_switch(switch_id, value)
-    if (switch_id == RandomizedChallenge::ABILITY_RANDOMIZER_SWITCH ||
-      switch_id == RandomizedChallenge::ABILITY_SEMI_RANDOMIZER_SWITCH) &&
-      value != old_value
-      RandomizedChallenge::Ability.reset_randomized_data
-    end
-    return ret
-  end
-end
+#class Game_Switches
+#  alias __randomize__set_switch []= unless method_defined?(:__randomize__set_switch)
+#  def []=(switch_id, value)
+#    old_value = self[switch_id]
+#    ret = __randomize__set_switch(switch_id, value)
+#    if (switch_id == RandomizedChallenge::ABILITY_RANDOMIZER_SWITCH ||
+#      switch_id == RandomizedChallenge::ABILITY_SEMI_RANDOMIZER_SWITCH) &&
+#      value != old_value
+#      RandomizedChallenge::Ability.reset_randomized_data
+#    end
+#    return ret
+#  end
+#end
 
 #-------------------------------------------------------------------------------
 # Main module to handle radomization of abilities
