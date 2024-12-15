@@ -339,3 +339,13 @@ Cave,5
 [107] # calle victoria
 Cave,5
     100,PIKACHU,55,60
+#-------------------------------
+[124] # sidequest
+Cave,5
+    100,PIKACHU,55,60
+#-------------------------------
+[126] # Nido de la araña
+Land,21
+    100,PIKACHU,45,47
+Water,2
+    100,PIKACHU,45,47

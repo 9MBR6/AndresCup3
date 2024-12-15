@@ -443,7 +443,7 @@ BaseMoney = 100
 Name = Tom
 Gender = Male
 SkillLevel = 100
-BaseMoney = 500
+BaseMoney = 50
 #-------------------------------
 [POLILLA]
 Name = Polilla
@@ -548,7 +548,7 @@ Name = Alto Mando
 Gender = Male
 SkillLevel = 100
 BaseMoney = 100
-BattleBGM = mus_x_undyne
+BattleBGM = sasi1
 VictoryBGM = Battle victory leader
 #-------------------------------
 [SASI2]
@@ -556,5 +556,43 @@ Name = Alto Mando
 Gender = Male
 SkillLevel = 100
 BaseMoney = 100
-BattleBGM = SwSh 115 Battle! (Battle Tower)
+BattleBGM = sasi2
 VictoryBGM = Battle victory leader
+#-------------------------------
+[PACO]
+Name = Alto Mando Paco
+Gender = Male
+SkillLevel = 100
+BaseMoney = 100
+BattleBGM = totmusica
+VictoryBGM = Battle victory leader
+#-------------------------------
+[XIEL]
+Name = Alto Mando
+Gender = Male
+SkillLevel = 100
+BaseMoney = 100
+BattleBGM = Last Surprise
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LUCA]
+Name = Campeón del mundo de VGC Luca
+Gender = Male
+SkillLevel = 100
+BaseMoney = 100
+BattleBGM = xdono
+VictoryBGM = Battle victory leader
+#-------------------------------
+[MUFFET]
+Name = Pastelera
+Gender = Female
+SkillLevel = 100
+BaseMoney = 100
+BattleBGM = mus_spider
+#-------------------------------
+[MAYA]
+Name = Coordinadora Pokémon
+Gender = Female
+SkillLevel = 100
+BaseMoney = 200
+BattleBGM = DPPT 035 Battle! (Gym Leader)

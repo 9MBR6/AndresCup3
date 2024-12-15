@@ -401,7 +401,7 @@ Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
 #-------------------------------
-[097]   # Marina Door
+[097]   # Pueblo Chill
 Name = Marina Door
 Outdoor = true
 ShowArea = true
@@ -446,18 +446,52 @@ ShowArea = true
 Weather = Sandstorm,100
 Environment = Sand
 #-------------------------------
+[106]   # Meseta Añil exterior
+Name = Meseta Añil exterior
+#-------------------------------
 [107]   # calle victoria
 Name = Calle Victoria
 ShowArea = true
 BattleBack = cave1
 Environment = Cave
 #-------------------------------
+[109]   # Liga Pokémon sala 1
+Name = Liga Pokémon sala 1
+BattleBack = elite1
+#-------------------------------
+[110]   # Liga Pokémon sala 2
+Name = Liga Pokémon sala 2
+BattleBack = elite3
+#-------------------------------
+[111]   # Liga Pokémon sala 3
+Name = Liga Pokémon sala 3
+BattleBack = elite1
+#-------------------------------
+[112]   # Liga Pokémon sala 4
+Name = Liga Pokémon sala 4
+BattleBack = champion1
+#-------------------------------
+[113]   # Liga Pokémon sala 5
+Name = Liga Pokémon sala 5
+BattleBack = champion2
+#-------------------------------
 [120]   # Boss arena
 Name = Boss arena
+ShowArea = true
 BattleBack = cave1
 Environment = Cave
 #-------------------------------
+[122]   # cova cascada
+Name = Cueva cascada
+ShowArea = true
+#-------------------------------
 [124]   # sidequest
 Name = sidequest
+ShowArea = true
 DarkMap = true
 BattleBack = distortion
+#-------------------------------
+[126]   # Nido de la araña
+Name = Nido de la araña
+ShowArea = true
+SnapEdges = true
