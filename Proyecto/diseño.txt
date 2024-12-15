@@ -1,0 +1,42 @@
+COUSAS PENDIENTES
+pantalla de inicio e créditos
+*ao iniciar o xojo por primeira vez, por ejemplo ao salir da casa, hay que activar os switches 60 e 61 para o random (tamen hai unha pool de iniciales no archivo AndresCup3\Proyecto\Plugins\Modo Random\001_Main.rb
+dibujar o mapa para usar vuelo
+sieso hai que repartir cañas para quen lle guste pescar
+hai que esperar a que este man actualice o plugin Modular UI Scenes da sua base a 2.0.8 para meterlle os siguientes
+https://skyfangames.blogspot.com/2024/03/dbk-deluxe-battle-kit-eui.html
+https://skyfangames.blogspot.com/2024/03/sprites-animados.html
+https://skyfangames.blogspot.com/2024/03/sprites-animados.html
+meterlle o plugin do nuzzloke ou mangarlle ao do plugin os scripts que interesen
+https://blog.pokeliberty.net/2020/10/script-de-nuzlocke-v162.html
+
+GENERAL
+documentación https://essentialsengine.miraheze.org/wiki/Essentials_Engine_wiki
+si vos tira de un huevo diseñar unha coba ou bosque hai varios ejemplos de generación automática nos mapas da base
+aquí hai música e efectos de sonido de oitras gens https://www.enls.eu/prelooped/
+aquí tilesets que non pegan o canteo pero haille que poñer os valores a man a cada tile e doume pereza https://eeveeexpo.com/resources/621/
+o rollo de que che diga que ataques superefeicaces? https://eeveeexpo.com/resources/1438/
+-algún npc que che de caña de pescar para meter encuentros nas ciudades ou así, sinon co plugin das MOs e golpe cabeza tamén
+-si a dificultad da liga e demasiado alta, podese poñer un mensaje ao entrar ao hall da fama en plan de "IMPORTANTE: no reveles esta información a los otros jugadores, pero puesto que acabamos de revivir a los pokémon integrantes de tu equipo, estos pueden ser usados durante la fase de torneo"
+
+
+IDEAS DE NPCS
+-npcs con surf + absorve agua e esas cousas que comban
+-npc oculto entre árboles con pokémon araña fuertes, bgm de spider dance e cando lle ganas dache sticky web e electrotela, posiblemente en un acceso as herbas  podería ser recurrente e darche unha mt cada vez xa que ten sprite e bgm propios sería solo cambiar o equipo no txt
+-npc con todos os pokémon macacos, oitra con todos os eevees, e oitra con todos os pokachos
+-cricketot delelelewoop
+-pachirisu con follow me + gyarados e algun mostrenco que coma x4 eléctrico
+-varios zoroark ditto e mew con transformar
+
+OBJETOS A REPARTIR
+drojas
+escamas corazón
+os que se venden caros xq o diñeiro cunde bastante
+as pedras de mega evolucionar? aparentemente o random non ten en conta as formas de pokémon asique non che poden salir
+os de potenciar ataques de 1 tipo: FAIRYFEATHER POISONBARB SHARPBEAK 
+capsula habilidad < parche habilidad (funciona sempre xq oculta)
+bayas e meter sitios para replantar?
+mts ainda que están todas en Arrakis
+
+
+
