@@ -94,6 +94,10 @@ Generation = 7
 Flags = InheritFormWithEverStone
 WildItemUncommon = PECHABERRY
 #-------------------------------
+[PIKACHU,1]
+FormName = Forma Alola
+Abilities = LIGHTNINGROD
+#-------------------------------
 [PIKACHU,2]
 FormName = Forma Coqueta
 GenderRatio = AlwaysFemale
@@ -435,7 +439,7 @@ Pokedex = Este es el aspecto de los Farfetch'd que habitan en Galar. Son guerrer
 Generation = 8
 Flags = InheritFormWithEverStone
 WildItemCommon = LEEK
-Evolutions = SIRFETCHD,BattleDealCriticalHit,3
+Evolutions = SIRFETCHD,BattleDealCriticalHit,3,SIRFETCHD,Level,35
 #-------------------------------
 [GRIMER,1]
 FormName = Forma Alola
@@ -2474,7 +2478,7 @@ EggMoves = ACIDSPRAY,AQUAJET,AQUATAIL,ASTONISH,BUBBLEBEAM,FLAIL,HAZE,SELFDESTRUC
 Pokedex = Segrega veneno a través de las agujas, razón por la que los pescadores lo odian. Los ejemplares de otras regiones presentan una forma diferente.
 Generation = 8
 Flags = InheritFormWithEverStone
-Evolutions = OVERQWIL,LevelUseMoveCount,BARBBARRAGE,OVERQWIL,Level,32
+Evolutions = OVERQWIL,LevelUseMoveCount,BARBBARRAGE,OVERQWIL,Level,35
 #-------------------------------
 [SNEASEL,1]
 FormName = Forma Hisui
@@ -2547,7 +2551,7 @@ Category = Manso
 Pokedex = A pesar de diferenciarse de otros Basculin, como por su plácida naturaleza, se considera una forma regional por todas las características compartidas.
 Generation = 8
 Flags = InheritFormWithEverStone
-Evolutions = BASCULEGION,LevelRecoilDamage,294
+Evolutions = BASCULEGION,LevelRecoilDamage,294,BASCULEGION,Level,35
 #-------------------------------
 [ZORUA,1]
 FormName = Forma Hisui

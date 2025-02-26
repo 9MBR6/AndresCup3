@@ -191,7 +191,7 @@ SkillLevel = 100
 BattleBGM = mus_undyneboss
 #-------------------------------
 [COOLTRAINER_F]
-Name = Ventisca
+Name = Entrenadora guay
 Gender = Female
 BaseMoney = 300
 SkillLevel = 100
@@ -459,7 +459,7 @@ BaseMoney = 100
 Name = Líder de Gimnasio
 Gender = Female
 BaseMoney = 200
-BattleBGM = matavacas
+BattleBGM = MooMooMeadows
 SkillLevel = 100
 VictoryBGM = Battle victory leader
 #-------------------------------

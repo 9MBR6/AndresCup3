@@ -2199,7 +2199,6 @@ Category = Pato Salvaje
 Pokedex = Lleva siempre una especie de palo de algún tipo de planta y dicen que éste puede ser mejor o peor. Tiene fama de haber luchado contra otros Pokémon por algún palo.
 Generation = 1
 WildItemUncommon = LEEK
-Evolutions = SIRFETCHD,None,
 #-------------------------------
 [DODUO]
 Name = Doduo
@@ -14345,6 +14344,7 @@ Pokedex = Los Basculin con la raya roja y aquellos con la raya azul se llevan fa
 Generation = 5
 Flags = InheritFormFromMother
 WildItemUncommon = DEEPSEATOOTH
+Evolutions = BASCULEGION,Level,32
 #-------------------------------
 [SANDILE]
 Name = Sandile
@@ -14654,7 +14654,7 @@ Category = Espíritu
 Pokedex = Nació del alma de un humano enterrado hace milenios. Aún conserva recuerdos del pasado.
 Generation = 5
 WildItemUncommon = SPELLTAG
-Evolutions = COFAGRIGUS,Level,34,RUNERIGUS,None,
+Evolutions = COFAGRIGUS,Level,34
 #-------------------------------
 [COFAGRIGUS]
 Name = Cofagrigus
