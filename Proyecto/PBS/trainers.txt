@@ -1261,3 +1261,57 @@ Pokemon = BASCULEGION,48
 	IV = 31,31,31,31,31,31
 	EV = 0,252,0,0,0,252
 	Shiny = true
+#-------------------------------
+[LENTO,Magcargo]
+Pokemon = MAGCARGO,55
+	AbilityIndex = 0
+	Moves = SHELLSMASH,ANCIENTPOWER,RECOVER,LAVAPLUME	
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+#-------------------------------
+[LENTO,Torkoal]
+Pokemon = TORKOAL,55
+	AbilityIndex = 0
+	Moves = ERUPTION,SHELLSMASH,LAVAPLUME	
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+#-------------------------------
+[TUBER_F,Mol]
+LoseText = heh
+Pokemon = ARCANINE,45
+	Form = 1
+Pokemon = CENTISKORCH,45
+Pokemon = CAMERUPT,45
+	Form = 1
+Pokemon = ABSOL,45
+	Form = 1
+#-------------------------------
+[RAPHAEL,Raphael]
+LoseText = Y si hacemos un pacto...
+Pokemon = GRIMMSNARL,46
+	Item = LIGHTCLAY
+	AbilityIndex = 0
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	Moves = REFLECT,LIGHTSCREEN,FOULPLAY,THUNDERWAVE
+Pokemon = MOLTRES,46
+	Form = 1
+	Item = BLACKGLASSES
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	Moves = FIERYWRATH,TAILWIND,NASTYPLOT
+Pokemon = GIRATINA,47
+	Item = GRISEOUSCORE
+	IV = 31,31,31,31,31,31
+	EV = 248,104,112,0,0,44
+	Moves = POLTERGEIST,DRAGONTAIL,WILLOWISP,SHADOWSNEAK
+Pokemon = HOUNDOOM,47
+	Form = 1
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	Moves = NASTYPLOT,FIREBLAST,DARKPULSE,SLUDGEBOMB
+Pokemon = YVELTAL,47
+	Item = LIFEORB
+	IV = 31,31,31,31,31,31
+	EV = 0,0,0,252,0,252
+	Moves = SNARL,OBLIVIONWING,FOULPLAY

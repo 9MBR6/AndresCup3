@@ -259,10 +259,10 @@ BaseMoney = 4
 SkillLevel = 16
 #-------------------------------
 [TUBER_F]
-Name = Playera
+Name = Lider de los tiefling
 Gender = Female
 BaseMoney = 4
-SkillLevel = 16
+SkillLevel = 100
 #-------------------------------
 [Playero2_M]
 Name = Playero
@@ -596,3 +596,15 @@ Gender = Female
 SkillLevel = 100
 BaseMoney = 200
 BattleBGM = DPPT 035 Battle! (Gym Leader)
+#-------------------------------
+[LENTO]
+Name = Lento
+Gender = Unknown
+BaseMoney = 50
+#-------------------------------
+[RAPHAEL]
+Name = Master of the House
+Gender = male
+SkillLevel = 100
+BaseMoney = 100
+BattleBGM = Raphael
