@@ -255,8 +255,8 @@ SkillLevel = 32
 [TUBER_M]
 Name = Playero
 Gender = Male
-BaseMoney = 4
-SkillLevel = 16
+BaseMoney = 40
+SkillLevel = 32
 #-------------------------------
 [TUBER_F]
 Name = Lider de los tiefling
@@ -608,3 +608,10 @@ Gender = male
 SkillLevel = 100
 BaseMoney = 100
 BattleBGM = Raphael
+#-------------------------------
+[CANGREJO]
+Name = Señor
+Gender = male
+BaseMoney = 500
+SkillLevel = 100
+BattleBGM = Crab Rave

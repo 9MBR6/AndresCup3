@@ -9,7 +9,7 @@ WildBattleBGM = Battle wild
 TrainerBattleBGM = Battle trainer
 WildVictoryBGM = Battle victory wild
 TrainerVictoryBGM = Battle victory trainer
-SurfBGM = Surfing
+SurfBGM = One Piece surf
 BicycleBGM = Bicycle
 #-------------------------------
 [1]

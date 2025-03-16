@@ -1315,3 +1315,40 @@ Pokemon = YVELTAL,47
 	IV = 31,31,31,31,31,31
 	EV = 0,0,0,252,0,252
 	Moves = SNARL,OBLIVIONWING,FOULPLAY
+#-------------------------------
+[TUBER_M,Jhonny]
+LoseText = glu glu glu...
+Pokemon = CORPHISH,44
+Pokemon = PYUKUMUKU,43
+Pokemon = WUGTRIO,43
+#-------------------------------
+[CANGREJO,Cangrejo]
+LoseText = Que tristeza... donde habré metido el violín más pequeño del mundo...
+Pokemon = CRAWDAUNT,41
+	Item = AMULETCOIN
+	AbilityIndex = 2
+	IV = 31,31,31,31,31,31
+	Moves = SWORDSDANCE,CRABHAMMER,KNOCKOFF,AQUAJET
+Pokemon = CRABOMINABLE,41
+	Item = LEFTOVERS
+	AbilityIndex = 1
+	IV = 31,31,31,31,31,31
+	Moves = BULKUP,ICEHAMMER,DRAINPUNCH,THUNDERPUNCH
+Pokemon = CRUSTLE,42
+	Item = HEAVYDUTYBOOTS
+	AbilityIndex = 0
+	IV = 31,31,31,31,31,31
+	Moves = SHELLSMASH,STONEEDGE,XSCISSOR,ROCKWRECKER
+Pokemon = KINGLER,42
+	Item = LIFEORB
+	AbilityIndex = 2
+	IV = 31,31,31,31,31,31
+	EV = 0,252,0,0,0,252
+	Moves = CRABHAMMER,METALCLAW,KNOCKOFF,SWORDSDANCE
+Pokemon = KLAWF,43
+	Item = CHOICEBAND
+	AbilityIndex = 0
+	IV = 31,31,31,31,31,31
+	EV = 0,252,0,0,0,252
+	Moves = ROCKSLIDE
+	Shiny = true
