@@ -73,7 +73,8 @@ BattleBGM = Bad apple
 [CUEBALL]
 Name = Calvo
 Gender = Male
-BaseMoney = 24
+BaseMoney = 44
+SkillLevel = 100
 #-------------------------------
 [ENGINEER]
 Name = Ingeniero
@@ -99,7 +100,7 @@ BaseMoney = 72
 [HIKER]
 Name = Montañero
 Gender = Male
-BaseMoney = 32
+BaseMoney = 42
 #-------------------------------
 [JUGGLER]
 Name = Malabarista
@@ -231,8 +232,7 @@ SkillLevel = 100
 [SWIMMER_M]
 Name = Nadador
 Gender = Male
-BaseMoney = 16
-SkillLevel = 32
+BaseMoney = 42
 #-------------------------------
 [SWIMMER_F]
 Name = Nadadora
@@ -615,3 +615,22 @@ Gender = male
 BaseMoney = 500
 SkillLevel = 100
 BattleBGM = Crab Rave
+#-------------------------------
+[YAGO]
+Name = Líder de Gimnasio
+Gender = Male
+BaseMoney = 200
+BattleBGM = TT
+SkillLevel = 100
+VictoryBGM = Battle victory leader
+#-------------------------------
+[COFRE]
+Name = Cofre
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = One Piece pelea dura
+#-------------------------------
+[NINJAS]
+Name = Grupo de
+Gender = Unknown
+BaseMoney = 50

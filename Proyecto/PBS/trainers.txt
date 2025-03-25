@@ -1276,12 +1276,24 @@ Pokemon = TORKOAL,55
 	IV = 31,31,31,31,31,31
 	EV = 252,0,125,0,125,0
 #-------------------------------
+[HIKER,Montano]
+LoseText = Debería haberme alejado más antes de usar estallido
+Pokemon = CAMERUPT,45
+	Item = LIFEORB
+	Form = 1
+	Moves = LAVAPLUME
+Pokemon = TYPHLOSION,45
+	AbilityIndex = 2
+	Moves = ERUPTION
+Pokemon = VOLCANION,45
+	Moves = STEAMERUPTION,OVERHEAT,SLUDGEWAVE
+#-------------------------------
 [TUBER_F,Mol]
 LoseText = heh
 Pokemon = ARCANINE,45
 	Form = 1
 Pokemon = CENTISKORCH,45
-Pokemon = CAMERUPT,45
+Pokemon = SABLEYE,45
 	Form = 1
 Pokemon = ABSOL,45
 	Form = 1
@@ -1352,3 +1364,133 @@ Pokemon = KLAWF,43
 	EV = 0,252,0,0,0,252
 	Moves = ROCKSLIDE
 	Shiny = true
+#-------------------------------
+[CUEBALL,Lando]
+LoseText = SIEMPRE ARRIBA!!!, siempre arriba...
+Pokemon = BIBAREL,43
+	Item = SALACBERRY
+	AbilityIndex = 0
+	IV = 31,31,31,31,31,31
+	Moves = SWORDSDANCE,STRENGTH,WATERFALL	
+Pokemon = ALCREMIE,42
+	Form = 53
+	Item = LEFTOVERS
+	Moves = DECORATE,AROMATICMIST
+Pokemon = ORICORIO,41
+	Item = HEAVYDUTYBOOTS
+	Moves = QUIVERDANCE,REVELATIONDANCE,AIRCUTTER,TAILWIND
+Pokemon = TOXTRICITY,41
+	Item = THROATSPRAY
+	AbilityIndex = 0
+	Moves = SHIFTGEAR,BOOMBURST,OVERDRIVE,SLUDGEWAVE
+#-------------------------------
+[POKEMANIAC,Furro]
+LoseText = Me gustan los pokémon pero no de esa forma
+Pokemon = TSAREENA,42
+	Item = LUMBERRY
+	AbilityIndex = 2
+	Moves = CAPTIVATE,TROPKICK,STOMP	
+Pokemon = INCINEROAR,40
+	Item = SITRUSBERRY
+	AbilityIndex = 2
+	Moves = FAKEOUT,PARTINGSHOT
+Pokemon = FROSLASS,43
+	Item = LIFEORB
+	AbilityIndex = 2
+	Moves = CAPTIVATE,ICYWIND,LEER
+Pokemon = PRIMARINA,42
+	Item = LIFEORB
+	AbilityIndex = 2
+	Moves = CAPTIVATE,HYPERVOICE,MOONBLAST
+#-------------------------------
+[YAGO,Pandry]
+LoseText = Bah, eu voume xojar o wow
+Pokemon = CRADILY,43
+	Name = Plantiña
+	Item = FLAMEORB
+	AbilityIndex = 3
+	Moves = CALMMIND,PSYCHOSHIFT,WISH,POWERGEM
+Pokemon = ELECTIVIRE,41
+	Name = Flaying
+	Item = AIRBALLOON
+	AbilityIndex = 3
+	Moves = EXTREMESPEED,SACREDSWORD,UTURN,WILLOWISP
+Pokemon = DUSCLOPS,43
+	Name = Marzoka
+	Item = EVIOLITE
+	AbilityIndex = 3
+	Moves = FIREFANG,SOFTBOILED,BIND
+Pokemon = GARCHOMP,42
+	Name = Cocodrulo
+	Item = YACHEBERRY
+	AbilityIndex = 4
+	Moves = DRAGONDANCE,DRAGONRUSH,LANDSWRATH
+Pokemon = TYRANITAR,43
+	Name = Cerrajero
+	Form = 1
+	AbilityIndex = 3
+	Moves = DRILLPECK,ROCKSLIDE,DRAINPUNCH,DRAGONDANCE
+#-------------------------------
+[COFRE,Sospechoso]
+Pokemon = GIMMIGHOUL,40
+	Item = LIGHTCLAY
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	Moves = ASTONISH,CONFUSERAY,REFLECT,LIGHTSCREEN	
+Pokemon = CURSOLA,38
+	Item = POWERHERB
+	AbilityIndex = 2
+	Moves = METEORBEAM,GIGADRAIN,ICYWIND,SHADOWBALL
+Pokemon = DHELMISE,39
+	Item = LIFEORB
+	Moves = ANCHORSHOT,SWORDSDANCE,POLTERGEIST,POWERWHIP
+Pokemon = AEGISLASH,38
+	Item = LEFTOVERS
+	Moves = SWORDSDANCE,BRUTALSWING,SHADOWSNEAK,SACREDSWORD
+	Shiny = true
+Pokemon = GHOLDENGO,38
+	Item = METALCOAT
+	Moves = MAKEITRAIN,SHADOWBALL,NASTYPLOT,DAZZLINGGLEAM
+#-------------------------------
+[SWIMMER_M,Michael]
+LoseText = Creo que lo de surfear en agua congelada...
+Pokemon = PACHIRISU,45
+	Item = LEFTOVERS
+	AbilityIndex = 2
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	Moves = FOLLOWME,SUPERFANG,NUZZLE,HELPINGHAND	
+Pokemon = MANTINE,43
+	Item = ASSAULTVEST
+	AbilityIndex = 1
+	Moves = SCALD,AIRSLASH,ICYWIND
+Pokemon = PIKACHU,43
+	Item = LIGHTBALL
+	AbilityIndex = 2
+	Moves = SURF
+#-------------------------------
+[BUGCATCHER,José Antonio]
+LoseText = Igual debería añadir más variedad de pokémon a mi equipo
+Pokemon = SHEDINJA,37
+	Item = FOCUSSASH
+Pokemon = SHEDINJA,37
+	Moves = THIEF,SHADOWSNEAK,XSCISSOR
+Pokemon = SHEDINJA,38
+	Item = CHOICESCARF
+	Moves = TRICK,SHADOWSNEAK,XSCISSOR
+Pokemon = SHEDINJA,39
+	Item = SAFETYGOGGLES
+	Moves = POLTERGEIST,SKITTERSMACK,SUCKERPUNCH
+	#-------------------------------
+[NINJAS,Ninjas]
+LoseText = DELELELE WHOOP
+Pokemon = KRICKETUNE,39
+	Item = FOCUSSASH
+	AbilityIndex = 2
+Pokemon = LOKIX,38
+	Item = FOCUSSASH
+Pokemon = NINJASK,40
+	Item = FOCUSSASH
+	AbilityIndex = 0
+Pokemon = ACCELGOR,39
+	Item = FOCUSSASH

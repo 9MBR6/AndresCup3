@@ -401,9 +401,18 @@ Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
 #-------------------------------
+[091]   # ruta 105
+Name = ruta 105
+Outdoor = true
+ShowArea = true
+#-------------------------------
 [092]   # Canarias
 Name = Canarias
 Outdoor = true
+ShowArea = true
+#-------------------------------
+[093]   # Yago gym
+Name = Yago gym
 ShowArea = true
 #-------------------------------
 [094]   # ruta 106
@@ -412,7 +421,7 @@ Outdoor = true
 ShowArea = true
 Environment = MovingWater
 #-------------------------------
-[095]   # playa en el jardin
+[095]   # Playa en el jardin
 Name = Playa en el jardín
 ShowArea = true
 #-------------------------------
@@ -438,6 +447,7 @@ Environment = Ice
 #-------------------------------
 [101]   # Matavacas gym
 Name = Matavacas gym
+ShowArea = true
 #-------------------------------
 [102]   # ruta 108
 Name = Ruta 108
@@ -488,6 +498,10 @@ BattleBack = champion1
 [113]   # Liga Pokémon sala 5
 Name = Liga Pokémon sala 5
 BattleBack = champion2
+#-------------------------------
+[116]   # Gimnasio Chill
+Name = Chill gym
+ShowArea = true
 #-------------------------------
 [120]   # Boss arena
 Name = Boss arena

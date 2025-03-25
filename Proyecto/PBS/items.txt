@@ -6545,7 +6545,7 @@ Description = Dado que siempre cae favorablemente. Los movimientos de ataque mú
 Name = Moneda de Gimmighoul
 NamePlural = Monedas de Gimmighoul
 Pocket = 1
-Price = 0
+Price = 10
 Flags = Fling_10
 Description = Moneda perteneciente al cofre de un Gimmighoul. Permite hacerle evolucionar.
 #-------------------------------

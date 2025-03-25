@@ -46,5 +46,7 @@
 102,North,0,100,South,28
 # ruta 109 (105) - Arrakis (103)
 105,West,0,103,East,8
-# pueblo 5 (92) - ruta 106 (94)
-92,West,0,94,East,0
+# ruta 106 (94) - Canarias (92)
+94,East,0,92,West,0
+# ruta 105 (91) - Canarias (92)
+91,West,0,92,East,0
