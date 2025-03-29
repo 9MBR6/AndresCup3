@@ -68,7 +68,6 @@ Name = Sacerdotisa
 Gender = Female
 BaseMoney = 100
 SkillLevel = 100
-BattleBGM = Bad apple
 #-------------------------------
 [CUEBALL]
 Name = Calvo
@@ -161,7 +160,7 @@ BaseMoney = 100
 [TAMER]
 Name = Domador
 Gender = Male
-BaseMoney = 40
+BaseMoney = 80
 #-------------------------------
 [BLACKBELT]
 Name = Karateka
@@ -634,3 +633,11 @@ BattleBGM = One Piece pelea dura
 Name = Grupo de
 Gender = Unknown
 BaseMoney = 50
+#-------------------------------
+[UXIA]
+Name = Líder de Gimnasio
+Gender = Male
+BaseMoney = 200
+BattleBGM = juegoshambre
+SkillLevel = 100
+VictoryBGM = Battle victory leader

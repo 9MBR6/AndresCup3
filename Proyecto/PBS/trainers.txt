@@ -1288,6 +1288,20 @@ Pokemon = TYPHLOSION,45
 Pokemon = VOLCANION,45
 	Moves = STEAMERUPTION,OVERHEAT,SLUDGEWAVE
 #-------------------------------
+[BLACKBELT,John Cena]
+LoseText = Not very chilling
+Pokemon = VANILLUXE,43
+    Item = ICYROCK
+	AbilityIndex = 1
+	Moves = BLIZZARD,AURORAVEIL,ALLYSWITCH
+Pokemon = CHIENPAO,43
+Pokemon = WOCHIEN,44
+Pokemon = CHIYU,45
+	Item = CHOICESPECS
+	Shiny = true
+	EV = 0,0,0,252,0,252
+	Moves = OVERHEAT
+#-------------------------------
 [TUBER_F,Mol]
 LoseText = heh
 Pokemon = ARCANINE,45
@@ -1481,7 +1495,7 @@ Pokemon = SHEDINJA,38
 Pokemon = SHEDINJA,39
 	Item = SAFETYGOGGLES
 	Moves = POLTERGEIST,SKITTERSMACK,SUCKERPUNCH
-	#-------------------------------
+#-------------------------------
 [NINJAS,Ninjas]
 LoseText = DELELELE WHOOP
 Pokemon = KRICKETUNE,39
@@ -1494,3 +1508,61 @@ Pokemon = NINJASK,40
 	AbilityIndex = 0
 Pokemon = ACCELGOR,39
 	Item = FOCUSSASH
+#-------------------------------
+[CHANNELER,Dolores]
+LoseText = Hay que agobio... me voy a pegar un baño
+Pokemon = ABSOL,35
+	Item = FOCUSSASH
+	AbilityIndex = 0
+	Moves = PERISHSONG,DETECT,SUCKERPUNCH
+Pokemon = GOTHITELLE,36
+	Item = SITRUSBERRY
+	AbilityIndex = 2
+	Moves = FAKEOUT,PROTECT,FUTURESIGHT
+Pokemon = CURSOLA,36
+	Item = LEFTOVERS
+	AbilityIndex = 2
+	Moves = CURSE,STRENGTHSAP,PERISHSONG
+Pokemon = SPIRITOMB,35
+	Moves = CURSE,PAINSPLIT
+#-------------------------------
+[TAMER,Amador]
+LoseText = Por lo que sea no me dejan bañarme con mis pokémon
+Pokemon = GENGAR,35
+	Moves = PERISHSONG,CURSE,MEANLOOK
+Pokemon = GLISCOR,36
+	Item = TOXICORB
+	AbilityIndex = 2
+	Moves = FLING,TOXICSPIKES
+Pokemon = XATU,35
+	Item = TOXICORB
+	AbilityIndex = 1
+	Moves = PSYCHOSHIFT,FUTURESIGHT,TRICK
+Pokemon = ZANGOOSE,36
+	Item = TOXICORB
+	AbilityIndex = 2
+	Moves = SWITCHEROO,DETECT,FACADE
+#-------------------------------
+[UXIA,Uxía]
+LoseText = Igual la muerte no era tan segura... debería despedir al que me aconsejó este equipo
+Pokemon = BLASTOISE,37
+	Name = Karcher
+	Item = SITRUSBERRY
+	AbilityIndex = 3
+	Moves = PERISHSONG,DIG
+	Shiny = true
+Pokemon = SCIZOR,41
+	Name = Tixeiras
+	Item = FOCUSSASH
+	AbilityIndex = 3
+	Moves = FAKEOUT,PARTINGSHOT,BULLETPUNCH
+Pokemon = GIRATINA,43
+	Name = 360Tina
+	Item = LEFTOVERS
+	AbilityIndex = 4
+	Moves = KINGSSHIELD,MAGMASTORM,MORNINGSUN,VOLTSWITCH
+Pokemon = BANETTE,43
+	Name = Fantasmico
+	Form = 1
+	AbilityIndex = 3
+	Moves = SACREDFIRE,HEARTSTAMP,CROSSCHOP

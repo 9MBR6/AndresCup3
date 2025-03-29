@@ -401,6 +401,15 @@ Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
 #-------------------------------
+[089]   # Castiñeiras
+Name = Castiñeiras
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[090]   # Gimnasio Muerte Segura
+Name = Gimnasio Muerte Segura
+ShowArea = true
+#-------------------------------
 [091]   # ruta 105
 Name = ruta 105
 Outdoor = true
@@ -529,3 +538,12 @@ Name = Teide
 ShowArea = true
 BattleBack = rocky_eve
 Environment = Volcano
+#-------------------------------
+[131]   # A Garita
+Name = A Garita
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[132]   # Farmacia Xurxo
+Name = Farmacia Xurxo
+ShowArea = true
