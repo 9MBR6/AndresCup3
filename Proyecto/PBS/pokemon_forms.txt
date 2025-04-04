@@ -890,7 +890,7 @@ MegaStone = GARDEVOIRITE
 BaseStats = 68,85,65,100,165,135
 BaseExp = 309
 Abilities = PIXILATE
-HiddenAbilities = PIXILATE
+HiddenAbilities = PIXILATE,INFILTRATOR
 Generation = 6
 #-------------------------------
 [SABLEYE,1]

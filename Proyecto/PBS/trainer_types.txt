@@ -390,11 +390,9 @@ BattleBGM = Battle Elite
 VictoryBGM = Battle victory leader
 #-------------------------------
 [ELITEFOUR_Agatha]
-Name = Alto Mando
+Name = Hermana del baptisterio
 Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Elite
-VictoryBGM = Battle victory leader
+BaseMoney = 35
 #-------------------------------
 [ELITEFOUR_Lance]
 Name = Domadragón
@@ -636,8 +634,37 @@ BaseMoney = 50
 #-------------------------------
 [UXIA]
 Name = Líder de Gimnasio
-Gender = Male
+Gender = Female
 BaseMoney = 200
 BattleBGM = juegoshambre
+SkillLevel = 100
+VictoryBGM = Battle victory leader
+#-------------------------------
+[FRIEREN]
+Name = Frieren
+Gender = Female
+BaseMoney = 100
+BattleBGM = yuusha
+SkillLevel = 100
+#-------------------------------
+[BATMAN]
+Name = El caballero oscuro
+Gender = Male
+BaseMoney = 100
+BattleBGM = batman
+SkillLevel = 100
+#-------------------------------
+[NOA]
+Name = Autoridad suprema del Team Star
+Gender = Female
+BaseMoney = 100
+BattleBGM = Noa
+SkillLevel = 100
+#-------------------------------
+[MANU]
+Name = Líder de Gimnasio
+Gender = Male
+BaseMoney = 200
+BattleBGM = Swordland
 SkillLevel = 100
 VictoryBGM = Battle victory leader

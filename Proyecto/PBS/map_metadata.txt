@@ -401,6 +401,11 @@ Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
 #-------------------------------
+[088]   # ruta 104
+Name = Ruta 104
+Outdoor = true
+ShowArea = true
+#-------------------------------
 [089]   # Castiñeiras
 Name = Castiñeiras
 Outdoor = true
@@ -546,4 +551,14 @@ ShowArea = true
 #-------------------------------
 [132]   # Farmacia Xurxo
 Name = Farmacia Xurxo
+ShowArea = true
+#-------------------------------
+[133]   # Amegakure
+Name = Amegakure
+Outdoor = true
+ShowArea = true
+Weather = Rain,100
+#-------------------------------
+[136]   # Piso de Noa
+Name = Piso de Noa
 ShowArea = true

@@ -4970,6 +4970,17 @@ Flags = Fling_90
 Move = ROCKCLIMB
 Description = Ataca con una gran embestida. Puede confundir al objetivo.
 #-------------------------------
+[TM101]
+Name = MT101
+NamePlural = MT101s
+Pocket = 4
+Price = 1500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = GRASSYTERRAIN
+Description = Invoca un campo de hierba 5 turnos. Al final del turno los Pokémon en el suelo recuperan PS.
+#-------------------------------
 [HM01]
 Name = MO01
 NamePlural = MO01s

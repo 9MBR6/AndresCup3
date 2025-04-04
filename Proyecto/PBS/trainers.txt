@@ -1566,3 +1566,129 @@ Pokemon = BANETTE,43
 	Form = 1
 	AbilityIndex = 3
 	Moves = SACREDFIRE,HEARTSTAMP,CROSSCHOP
+#-------------------------------
+[ELITEFOUR_Agatha,Encarnita]
+LoseText = A quien no le va a gustá
+Pokemon = FALINKS,31
+	Moves = NORETREAT,FIRSTIMPRESSION,CLOSECOMBAT
+Pokemon = STONJOURNER,30
+Pokemon = NACLSTACK,31
+Pokemon = DUGTRIO,31
+#-------------------------------
+[FRIEREN,la sepulturera]
+LoseText = A Himmel el héroe le habría gustado este combate 
+Pokemon = SHAYMIN,32
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	Moves = SEEDFLARE,LEECHSEED,GRASSYTERRAIN,SYNTHESIS
+Pokemon = HATTERENE,32
+	Item = LEFTOVERS
+	IV = 31,31,31,31,31,31
+	Moves = CALMMIND,DRAININGKISS,TRICKROOM,PSYCHIC
+Pokemon = FLOETTE,32
+	Form = 5
+	AbilityIndex = 0
+	Moves = LIGHTOFRUIN,WISH
+	Shiny = true
+Pokemon = GARDEVOIR,32
+	Form = 1
+	AbilityIndex = 0
+	Moves = HYPERVOICE,PSYCHIC
+	Shiny = true
+#-------------------------------
+[BATMAN,Batman]
+LoseText = Na na na na na na na na...
+Pokemon = NOIVERN,27
+Pokemon = SWOOBAT,28
+Pokemon = CROBAT,29
+Pokemon = LUNALA,30
+	Shiny = true
+#-------------------------------
+[NOA,Noa]
+LoseText = Mis vivis...
+Pokemon = UMBREON,30
+	IV = 31,31,31,31,31,31
+	Moves = DARKPULSE,PSYCHIC,QUICKATTACK,BABYDOLLEYES
+Pokemon = VAPOREON,30
+	IV = 31,31,31,31,31,31
+	Moves = HYDROPUMP,AURORABEAM,QUICKATTACK,BABYDOLLEYES
+Pokemon = JOLTEON,30
+	IV = 31,31,31,31,31,31
+	Moves = THUNDER,PINMISSILE,QUICKATTACK,BABYDOLLEYES
+Pokemon = FLAREON,30
+	IV = 31,31,31,31,31,31
+	Moves = FLAREBLITZ,FIRESPIN,QUICKATTACK,BABYDOLLEYES
+Pokemon = LEAFEON,30
+	IV = 31,31,31,31,31,31
+	Moves = LEAFBLADE,XSCISSOR,QUICKATTACK,BABYDOLLEYES
+Pokemon = SYLVEON,30
+	IV = 31,31,31,31,31,31
+	Moves = MOONBLAST,SHADOWBALL,QUICKATTACK,BABYDOLLEYES
+#-------------------------------
+[BURGLAR,Mohammed]
+LoseText = *Speaks árabe*
+Pokemon = ZIGZAGOON,30
+	IV = 31,31,31,31,31,31
+	Moves = THIEF,CUT,ROCKSMASH
+Pokemon = MIGHTYENA,28
+	AbilityIndex = 0
+	Moves = THIEF,SUCKERPUNCH,PLAYROUGH
+Pokemon = LOMBRE,29
+	Moves = THIEF,LEECHSEED,GIGADRAIN,HYDROPUMP
+Pokemon = KECLEON,30
+	Item = ASSAULTVEST
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	AbilityIndex = 2
+	Moves = THIEF,SHADOWSNEAK,DRAINPUNCH,AERIALACE
+	Shiny = true
+#-------------------------------
+[BIKER,Sandor]
+LoseText = Mardisión gitana pa ti
+Pokemon = PLUSLE,30
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	AbilityIndex = 0
+	Moves = ENTRAINMENT,SWITCHEROO,NUZZLE,ELECTROWEB
+Pokemon = MINUN,30
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	AbilityIndex = 0
+	Moves = ENTRAINMENT,THUNDERBOLT,GRASSKNOT,CHARGEBEAM
+Pokemon = SPINDA,30
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	AbilityIndex = 2
+	Moves = FAKEOUT,SUCKERPUNCH,SUPERPOWER
+Pokemon = SWELLOW,30
+	Item = FLAMEORB
+	AbilityIndex = 0
+	Moves = FACADE,BRAVEBIRD,STEELWING
+#-------------------------------
+[MANU,Manu]
+LoseText = Esto con el esmeralda no pasaba
+Pokemon = BLAZIKEN,28
+	Name = Blazikiqe
+	Item = FOCUSSASH
+	AbilityIndex = 3
+	Moves = UTURN,KNOCKOFF,PETALBLIZZARD,TOXIC
+Pokemon = SALAMENCE,28
+	Name = Drakiqe
+	Item = BLACKGLASSES
+	AbilityIndex = 4
+	Moves = KNOCKOFF,LANDSWRATH,WATERFALL,HORNLEECH
+Pokemon = TYRANITAR,29
+	Name = Tyrakiqes
+	Item = ROCKYHELMET
+	AbilityIndex = 3
+	Moves = DRILLRUN,TOXICSPIKES,DRAGONCLAW,VCREATE
+Pokemon = MAWILE,30
+	Name = Kiqemorreos
+	Item = LIFEORB
+	AbilityIndex = 3
+	Moves = KNOCKOFF,DRAGONCLAW,VCREATE,SACREDSWORD
+Pokemon = GARDEVOIR,29
+	Name = Kiqfeminino
+	Form = 1
+	AbilityIndex = 3
+	Moves = GIGADRAIN,VENOSHOCK,DRAININGKISS,DRACOMETEOR

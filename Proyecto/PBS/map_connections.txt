@@ -38,6 +38,10 @@
 47,East,8,52,West,0
 # Ruta 8 (69) - Afueras Zona Safari (66)
 69,North,0,66,South,10
+# ruta 105 (91) - Canarias (92)
+91,West,0,92,East,0
+# ruta 106 (94) - Canarias (92)
+94,East,0,92,West,0
 # Marina Door (97) - ruta 107 (99)
 97,West,15,99,East,0
 # ruta 107 (99) - Ciudad fresquiño (100)
@@ -46,7 +50,9 @@
 102,North,0,100,South,28
 # ruta 109 (105) - Arrakis (103)
 105,West,0,103,East,8
-# ruta 106 (94) - Canarias (92)
-94,East,0,92,West,0
-# ruta 105 (91) - Canarias (92)
-91,West,0,92,East,0
+# ruta 104 (88) - Castiñeiras (89)
+88,West,0,89,East,2
+# Amegakure (133) - Castiñeiras (89)
+133,West,0,89,East,52
+# Amegakure (133) - ruta 104 (88)
+133,North,0,88,South,0
