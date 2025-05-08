@@ -6352,7 +6352,7 @@ Description = Amuleto que aumenta los Puntos de Exp. que ganan los Pokémon en c
 Name = Mega Aro
 NamePlural = Mega Aros
 Pocket = 8
-Price = 0
+Price = 10
 Flags = KeyItem,MegaRing
 Description = Aro que sirve para activar el poder de la Mega Evolución.
 #-------------------------------

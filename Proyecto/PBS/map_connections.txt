@@ -38,6 +38,14 @@
 47,East,8,52,West,0
 # Ruta 8 (69) - Afueras Zona Safari (66)
 69,North,0,66,South,10
+# pueblo 3 (80) - ruta 103 (81)
+80,North,0,81,South,0
+# ruta 104 (88) - Castiñeiras (89)
+88,West,0,89,East,2
+# Amegakure (133) - ruta 104 (88)
+133,North,0,88,South,0
+# Amegakure (133) - Castiñeiras (89)
+133,West,0,89,East,52
 # ruta 105 (91) - Canarias (92)
 91,West,0,92,East,0
 # ruta 106 (94) - Canarias (92)
@@ -50,9 +58,17 @@
 102,North,0,100,South,28
 # ruta 109 (105) - Arrakis (103)
 105,West,0,103,East,8
-# ruta 104 (88) - Castiñeiras (89)
-88,West,0,89,East,2
-# Amegakure (133) - Castiñeiras (89)
-133,West,0,89,East,52
-# Amegakure (133) - ruta 104 (88)
-133,North,0,88,South,0
+# ruta 102 (79) - Pueblo Inicio (83)
+79,West,47,83,East,0
+# Ruta 1 (142) - Pueblo Inicio (83)
+142,South,4,83,North,0
+# Afueras Zona Safari (150) - Pueblo Inicio (83)
+150,East,0,83,West,0
+# pueblo 2 (78) - ruta 102 (79)
+78,East,7,79,West,0
+# Ruta 1 (142) - ruta 102 (79)
+142,East,0,79,West,23
+# Ruta 1 (142) - pueblo 2 (78)
+142,North,6,78,South,0
+# Afueras Zona Safari (150) - Ruta 1 (142)
+150,North,18,142,South,0

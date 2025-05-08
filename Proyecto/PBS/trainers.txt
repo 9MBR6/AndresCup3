@@ -481,7 +481,7 @@ Pokemon = TYRANITAR,80
 	IV = 31,31,31,31,31,31
 	EV = 252,0,125,0,125,0
 #-------------------------------
-[COOLTRAINER_M,Enjoyer]
+[COOLTRAINER_M,Arena Enjoyer]
 LoseText = ... Igual debería levear con esos orthworm de por ahí
 Pokemon = TYRANITAR,55
 	Item = ASSAULTVEST
@@ -1217,9 +1217,22 @@ Pokemon = WALKINGWAKE,48
 	EV = 0,0,0,252,0,252
 	Shiny = true
 #-------------------------------
-[COOLTRAINER_F, Lluvia Enjoyer]
-LoseText = El poder del sol... en la palma de mi mano...
-Pokemon = GOODRA,46
+[COOLTRAINER_F, Lluvia Enjoyer Konan]
+LoseText = Así que ese es tu camino del ninja...
+Pokemon = KARTANA,30
+	Item = FOCUSSASH
+	Moves = LEAFBLADE,SMARTSTRIKE,SACREDSWORD,DETECT
+	IV = 31,31,31,31,31,31
+	EV = 0,252,0,0,0,252
+	Shiny = true
+Pokemon = ARCHALUDON,30
+	Item = ASSAULTVEST
+	AbilityIndex = 0
+	Moves = DRACOMETEOR,FLASHCANNON,ELECTROSHOT,BODYPRESS
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,0,0,0
+	Shiny = true
+Pokemon = GOODRA,30
 	Form = 1
 	Item = LEFTOVERS
 	AbilityIndex = 2
@@ -1227,34 +1240,20 @@ Pokemon = GOODRA,46
 	IV = 31,31,31,31,31,31
 	EV = 252,0,252,0,0,0
 	Shiny = true
-Pokemon = TOXICROAK,46
+Pokemon = TOXICROAK,30
 	Item = LEFTOVERS
 	Moves = SWORDSDANCE,DRAINPUNCH,GUNKSHOT,SUCKERPUNCH
 	IV = 31,31,31,31,31,31
 	EV = 252,252,0,0,0,0
 	Shiny = true
-Pokemon = LUDICOLO,46
-	Item = LIFEORB
-	AbilityIndex = 0
-	Moves = WEATHERBALL,GIGADRAIN,ICEBEAM,FAKEOUT
-	IV = 31,31,31,31,31,31
-	EV = 0,0,0,252,0,252
-	Shiny = true
-Pokemon = KINGDRA,47
+Pokemon = KINGDRA,30
 	Item = CHOICESPECS
 	AbilityIndex = 0
 	Moves = DRACOMETEOR,HURRICANE,ICEBEAM,WEATHERBALL
 	IV = 31,31,31,31,31,31
 	EV = 0,0,0,252,0,252
 	Shiny = true
-Pokemon = ARCHALUDON,47
-	Item = ASSAULTVEST
-	AbilityIndex = 0
-	Moves = DRACOMETEOR,FLASHCANNON,ELECTROSHOT,BODYPRESS
-	IV = 31,31,31,31,31,31
-	EV = 252,0,252,0,0,0
-	Shiny = true
-Pokemon = BASCULEGION,48
+Pokemon = BASCULEGION,30
 	Item = LIFEORB
 	AbilityIndex = 0
 	Moves = LASTRESPECTS,WAVECRASH,FLIPTURN,ICEFANG
@@ -1344,8 +1343,8 @@ Pokemon = YVELTAL,47
 #-------------------------------
 [TUBER_M,Jhonny]
 LoseText = glu glu glu...
-Pokemon = CORPHISH,44
-Pokemon = PYUKUMUKU,43
+Pokemon = CORPHISH,43
+Pokemon = PYUKUMUKU,42
 Pokemon = WUGTRIO,43
 #-------------------------------
 [CANGREJO,Cangrejo]
@@ -1692,3 +1691,428 @@ Pokemon = GARDEVOIR,29
 	Form = 1
 	AbilityIndex = 3
 	Moves = GIGADRAIN,VENOSHOCK,DRAININGKISS,DRACOMETEOR
+#-------------------------------
+[KERORO,Keroro]
+LoseText = Ke ke kero
+Pokemon = CROAGUNK,27
+	Name = Kururu
+	Shiny = true
+Pokemon = POLIWHIRL,22
+	Name = Tamama
+	AbilityIndex = 2
+Pokemon = FROGADIER,25
+	Name = Dororo
+Pokemon = SEISMITOAD,24
+	Name = Giroro
+#-------------------------------
+[CUEBALL,Toretto]
+LoseText = Veo que conoces el verdadero significado de la familia
+Pokemon = MAUSHOLD,48
+	Item = WIDELENS
+	AbilityIndex = 2
+	Moves = POPULATIONBOMB
+Pokemon = WISHIWASHI,47
+	Moves = FLIPTURN,SCALESHOT,SCALD,ICEBEAM
+Pokemon = COMBEE,48
+	Item = EVIOLITE
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	AbilityIndex = 2
+	Moves = TAILWIND,DUALWINGBEAT,LUNGE
+Pokemon = KANGASKHAN,47
+	Form = 1
+	Moves = FAKEOUT,CRUNCH,ICEPUNCH,LOWKICK
+#-------------------------------
+[FANTASMA,Banette]
+Pokemon = BANETTE,1
+	Form = 1
+	Moves = DESTINYBOND,PROTECT
+#-------------------------------
+[GAMBLER,Kaiji]
+LoseText = Aw dang it
+Pokemon = RHYDON,25
+	Item = WIDELENS
+	Moves = HORNDRILL
+Pokemon = LAPRAS,25
+	Item = WIDELENS
+	Moves = SHEERCOLD
+Pokemon = PINSIR,25
+	Item = WIDELENS
+	Form = 1
+	Moves = GUILLOTINE
+Pokemon = GROUDON,25
+	Item = WIDELENS
+	Moves = FISSURE
+#-------------------------------
+[CAMPER,Jimmy]
+LoseText = Al fin podré descansar en paz
+Pokemon = ARON,1
+	AbilityIndex = 0
+	Item = SHELLBELL
+	Moves = ENDEAVOR
+Pokemon = HIPPOWDON,27
+	AbilityIndex = 0
+	Moves = SANDTOMB,SCORCHINGSANDS,FISSURE
+#-------------------------------
+[YOUNGSTER,Ju-On]
+LoseText = Kawasaki. Nintendo.
+Pokemon = RATTATA,1
+	Item = FOCUSSASH
+	Moves = ENDEAVOR,QUICKATTACK
+Pokemon = GOTHITA,1
+	AbilityIndex = 2
+	Item = FOCUSSASH
+	Moves = FAKEOUT,TRICKROOM,FOULPLAY
+Pokemon = COTTONEE,1
+	AbilityIndex = 0
+	Item = FOCUSSASH
+	Moves = LEECHSEED,SUBSTITUTE,ENCORE,ENDEAVOR
+Pokemon = DUSKULL,1
+	Item = FOCUSSASH
+	Moves = DESTINYBOND,TRICKROOM
+#-------------------------------
+[WOLFE,Wolfe Glick]
+LoseText = Please subscribe to my youtube channel
+Pokemon = KORAIDON,25
+	Item = LIFEORB
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	Moves = PROTECT,FLAREBLITZ,CLOSECOMBAT,FLAMECHARGE
+	Shiny = true
+Pokemon = FLUTTERMANE,26
+	Item = LIFEORB
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	Moves = PROTECT,ICYWIND,MOONBLAST,SHADOWBALL
+Pokemon = GOTHITELLE,27
+	Item = LEFTOVERS
+	IV = 31,31,31,31,31,31
+	EV = 248,104,112,0,0,44
+	Moves = PROTECT,FAKEOUT,PSYCHIC,TAUNT
+	Shiny = true
+Pokemon = SCREAMTAIL,26
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	Moves = PROTECT,ENCORE,DISABLE,PERISHSONG
+Pokemon = GENGAR,27
+	Form = 1
+	IV = 31,31,31,31,31,31
+	EV = 0,0,0,252,0,252
+	Moves = PERISHSONG,PROTECT,DISABLE,SHADOWBALL
+	Shiny = true
+#-------------------------------
+[GAMBLER,Almendruco]
+LoseText = Qué te parece el truco?
+Pokemon = SHUCKLE,22
+	Moves = POWERTRICK,ROCKSLIDE
+	Shiny = true
+Pokemon = SPOINK,20
+	Item = WIDELENS
+	Moves = TRICKROOM,HELPINGHAND
+#-------------------------------
+[BEAUTY,Kate]
+LoseText = Capturar otros pokémon? eso es de pobres
+Pokemon = SERVINE,21
+	Moves = GRASSPLEDGE
+Pokemon = BRIONNE,21
+	Moves = WATERPLEDGE
+Pokemon = QUILAVA,21
+	Moves = FIREPLEDGE
+#-------------------------------
+[TEAMROCKET_F,Anastasia]
+LoseText = Qué? robar pokémon es muy estresante vale?
+Pokemon = IMPIDIMP,22
+	AbilityIndex = 0
+	Moves = SWAGGER
+Pokemon = ZORUA,20
+	Moves = LASHOUT
+Pokemon = SANDILE,21
+	Moves = SWAGGER,LASHOUT
+Pokemon = SPHEAL,22
+	IV = 31,31,31,31,31,31
+	EV = 0,0,0,0,0,252
+	Moves = SWAGGER
+#-------------------------------
+[ADOLFO,Adolfin]
+LoseText = *Speaks dolphin*
+Pokemon = VENUSAUR,20
+	Name = bubbabomb
+	Item = ENIGMABERRY
+	AbilityIndex = 3
+	Moves = LEECHSEED,FIERYDANCE,CROSSPOISON
+Pokemon = AEGISLASH,19
+	Name = tizona
+	Item = ROCKYHELMET
+	AbilityIndex = 1
+	Moves = RAPIDSPIN,UTURN,KNOCKOFF
+Pokemon = CROBAT,21
+	Name = lois
+	Item = LEFTOVERS
+	AbilityIndex = 3
+	Moves = FLAREBLITZ,AURASPHERE,NIGHTSLASH,PETALDANCE
+Pokemon = VICTINI,22
+	Name = chusta
+	Item = CHARCOAL
+	AbilityIndex = 1
+	Moves = MORNINGSUN,FIREPLEDGE,IRONHEAD,SECRETSWORD
+#-------------------------------
+[COOLTRAINER_M,Simon el excavador]
+LoseText = ¡Mi taladro es el taladro que perforará los cielos! ¡El taladro es mi alma!
+Pokemon = EXCADRILL,15
+	Item = LIFEORB
+	AbilityIndex = 2
+	IV = 31,31,31,31,31,31
+	Moves = HORNDRILL,DRILLRUN
+	Shiny = true
+Pokemon = BASTIODON,15
+	Item = LEFTOVERS
+	AbilityIndex = 0
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,0,0,0
+	Moves = HEAVYSLAM,DIG,BODYPRESS,IRONDEFENSE
+	Shiny = true
+Pokemon = RHYPERIOR,15
+	Item = ASSAULTVEST
+	AbilityIndex = 1
+	IV = 31,31,31,31,31,31
+	Moves = HORNDRILL,DRILLRUN,ROCKWRECKER
+	Shiny = true
+Pokemon = DUDUNSPARCE,15
+	Item = CHOICEBAND
+	AbilityIndex = 2
+	Form = 1
+	IV = 31,31,31,31,31,31
+	Moves = HYPERDRILL
+	Shiny = true
+Pokemon = AGGRON,15
+	AbilityIndex = 0
+	Form = 1
+	IV = 31,31,31,31,31,31
+	Moves = HEAVYSLAM,IRONHEAD,PAYBACK
+	Shiny = true
+#-------------------------------
+[ENGINEER,Jenaro]
+LoseText = Me saqué una carrera pa esto...
+Pokemon = GEODUDE,11
+	Form = 1
+	AbilityIndex = 2
+	Moves = EXPLOSION
+Pokemon = MAGNEMITE,11
+	AbilityIndex = 1
+	Moves = EXPLOSION
+Pokemon = GRAVELER,13
+	Form = 1
+	AbilityIndex = 2
+	Moves = EXPLOSION
+#-------------------------------
+[TWINS,Sherri y Terri]
+LoseText = -Hemos perdido por tu cula. -No, ha sido culpa tuya.
+Pokemon = SOLROCK,11
+	Moves = EXPLOSION
+Pokemon = LUNATONE,11
+	Moves = EXPLOSION
+#-------------------------------
+[GENTLEMAN,Henry Henderson]
+LoseText = Not very eleganto...
+Pokemon = WEEZING,13
+	Form = 1
+	AbilityIndex = 2
+	Moves = MISTYEXPLOSION
+Pokemon = BALTOY,12
+	Form = 1
+	AbilityIndex = 2
+	Moves = EXPLOSION
+#-------------------------------
+[FANTASMA,Glalie]
+Pokemon = GLALIE,15
+	Form = 1
+	Moves = EXPLOSION,PROTECT
+#-------------------------------
+[TEAMROCKET_F,Ceres]
+LoseText = Me faltó robar más pokémon antes del combate...
+Pokemon = MURKROW,13
+	Item = FOCUSSASH
+	AbilityIndex = 2
+	Moves = TAUNT
+Pokemon = STUNKY,12
+	AbilityIndex = 1
+	Moves = EXPLOSION
+Pokemon = DRIFLOON,13
+	AbilityIndex = 1
+	Moves = EXPLOSION
+#-------------------------------
+[POKEBALL,?]
+Pokemon = VOLTORB,13
+	AbilityIndex = 2
+	Moves = EXPLOSION
+Pokemon = VOLTORB,13
+	AbilityIndex = 2
+	Form = 1
+	Moves = EXPLOSION
+Pokemon = SEEDOT,14
+	AbilityIndex = 2
+	Moves = EXPLOSION
+#-------------------------------
+[MEGUMIN,Megumin]
+Pokemon = DIANCIE,50
+	LoseText = Saikodeshita
+	Item = CHOICEBAND
+	Form = 1
+	IV = 31,31,31,31,31,31
+	EV = 0,252,0,0,0,0
+	Moves = EXPLOSION
+#-------------------------------
+[IVAN,Iw4nn]
+LoseText = Por lo menos pude explotar
+Pokemon = DUSCLOPS,12
+	Name = Culungele
+	Item = EVIOLITE
+	AbilityIndex = 4
+	Moves = EXPLOSION,WISH,DARKVOID
+Pokemon = GARCHOMP,11
+	Name = Garchar x2
+	Item = CHOICEBAND
+	AbilityIndex = 5
+	Moves = EXPLOSION
+Pokemon = INFERNAPE,13
+	Name = OMacaco
+	Item = FOCUSSASH
+	AbilityIndex = 5
+	Moves = EXPLOSION
+Pokemon = CHARIZARD,14
+	Name = Churmander
+	Form = 1
+	AbilityIndex = 3
+	Moves = EXPLOSION
+#-------------------------------
+[GURA,Gura]
+LoseText = Sayonara, arigatou
+Pokemon = HOOH,45
+	Item = ABILITYSHIELD
+	AbilityIndex = 2
+	IV = 31,31,31,31,31,31
+	Moves = SACREDFIRE,RECOVER,REFLECT,HELPINGHAND
+Pokemon = GIRATINA,45
+	Item = BLACKGLASSES
+	AbilityIndex = 0
+	IV = 31,31,31,31,31,31
+	Moves = BREAKINGSWIPE,SHADOWFORCE,PAINSPLIT,HYPERVOICE
+	Shiny = true
+Pokemon = GRAPPLOCT,45
+	Item = BINDINGBAND
+	AbilityIndex = 2
+	IV = 31,31,31,31,31,31
+	EV = 252,0,125,0,125,0
+	Moves = OCTOLOCK,COACHING,BIND
+Pokemon = CELEBI,45
+	Item = SCOPELENS
+	IV = 31,31,31,31,31,31
+	Moves = LIFEDEW,FUTURESIGHT,MAGICALLEAF,NASTYPLOT
+Pokemon = SHARPEDO,45
+	Form = 1
+	IV = 31,31,31,31,31,31
+	Moves = CRUNCH,POISONFANG,ICEFANG,LIQUIDATION
+#-------------------------------
+[ELITEFOUR_Lance,Archer]
+LoseText = People die if they are killed
+Pokemon = HONEDGE,15
+	Moves = SHADOWSNEAK,SWORDSDANCE,NIGHTSLASH,SACREDSWORD
+	Shiny = true
+Pokemon = HONEDGE,15
+	Moves = PSYCHOCUT,BRUTALSWING,IRONHEAD,AERIALACE
+#-------------------------------
+[LADY,Hanekawa]
+LoseText = No lo sé todo, solo sé lo que sé.
+Pokemon = MEOWSTIC,10
+	Gender = Female
+	Form = 1
+	Moves = FAKEOUT,SCRATCH,ZENHEADBUTT
+Pokemon = LITTEN,12
+	AbilityIndex = 2
+	Moves = THRASH,SCARYFACE,BITE,ROAR
+	Shiny = true
+#-------------------------------
+[GAMBLER,Macareno]
+LoseText = Sopa de macaco, sopa sopa de macaco
+Pokemon = MANKEY,5
+Pokemon = AIPOM,7
+Pokemon = PANSEAR,6
+Pokemon = PANSAGE,6
+Pokemon = PANPOUR,6
+#-------------------------------
+[YOUNGSTER,Juanito]
+LoseText = Mis padres son unos inútiles deberían haberme regalado un pokémon más fuerte
+Pokemon = NECROZMA,5
+	Form = 3
+	Moves = STEALTHROCK,SWORDSDANCE,GRAVITY
+	Shiny = true
+#-------------------------------
+[PSYCHIC_M,Jack Wilder]
+LoseText = Ahora me ves 2...
+Pokemon = ZORUA,10
+	Item = FOCUSSASH
+	Moves = TAUNT,FOULPLAY,PAINSPLIT
+Pokemon = DITTO,7
+	AbilityIndex = 2
+Pokemon = MEW,7
+	Item = CHOICEBAND
+	Moves = TRANSFORM
+#-------------------------------
+[REISEN,Reisen]
+LoseText = Al menos es mejor trabajo que cuando me alistaron al cuerpo de defensa lunar
+Pokemon = CINDERACE,45
+	Item = HEAVYDUTYBOOTS
+	AbilityIndex = 2
+	Moves = PYROBALL,UTURN,LOWKICK,COURTCHANGE
+Pokemon = AZUMARILL,45
+	AbilityIndex = 1
+	Moves = LIQUIDATION,PLAYROUGH,AQUAJET,KNOCKOFF
+Pokemon = DIGGERSBY,46
+	Item = LIFEORB
+	AbilityIndex = 2
+	Moves = SUPERFANG,DIG,LOWKICK,MEGAKICK
+Pokemon = WIGGLYTUFF,45
+	Item = LEFTOVERS
+	AbilityIndex = 1
+	Moves = HYPERVOICE,ICYWIND,DAZZLINGGLEAM,NASTYPLOT
+Pokemon = VICTINI,45
+	Moves = VCREATE,SEARINGSHOT,ZENHEADBUTT,UTURN
+Pokemon = LOPUNNY,46
+	Form = 1
+	Moves = DRAINPUNCH,PLAYROUGH,LOWKICK,HYPERVOICE
+#-------------------------------
+[CRUSHGIRL,Judith]
+LoseText = Me he quedado sin pokémon, pero no sin opciones
+Pokemon = FARFETCHD,16
+	Form = 1
+Pokemon = HITMONTOP,16
+Pokemon = KUBFU,17
+#-------------------------------
+[HEXMANIAC,Morgana]
+LoseText = ¡Comparte mi tormento!
+Pokemon = SABLEYE,17
+Pokemon = SPIRITOMB,15
+Pokemon = MISMAGIUS,16
+#-------------------------------
+[HIKER,Samsagaz Gamyi]
+LoseText = *Sam fue lentín*
+Pokemon = MUNCHLAX,30
+	Item = LEFTOVERS
+	AbilityIndex = 1
+Pokemon = PINECO,32
+	Item = EVIOLITE
+	AbilityIndex = 0
+Pokemon = GROTLE,30
+Pokemon = GREEDENT,30
+	Item = SITRUSBERRY
+	AbilityIndex = 0
+Pokemon = MUDSDALE,30
+	AbilityIndex = 1
+#-------------------------------
+[FLAMIGO,oh oh oh]
+Pokemon = FLAMIGO,4
+	AbilityIndex = 2
+Pokemon = FLAMIGO,5
+	AbilityIndex = 2
+	Moves = COPYCAT,DOUBLEKICK,PECK,AGILITY
+	Shiny = true

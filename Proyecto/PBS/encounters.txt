@@ -316,9 +316,105 @@ Land,21
     10,SANDSHREW_1,11,14
     10,VULPIX_1,11,14
 #-------------------------------
+[083] # Pueblo inicio
+Land,21
+    100,PIKACHU,5,9
+Water,2
+    100,PIKACHU,5,9
+OldRod
+    100,PIKACHU,5,9
+SuperRod
+    100,PIKACHU,5,9
+#-------------------------------
+[150] # Afueras Zona Safari
+Land,21
+    100,PIKACHU,5,9
+#-------------------------------
+[142] # ruta 101
+Land,21
+    100,PIKACHU,5,12
+#-------------------------------
+[079] # ruta 102
+Land,21
+    100,PIKACHU,14,19
+#-------------------------------
+[141] # TTGL
+Cave,5
+    100,PIKACHU,14,19
+#-------------------------------
+[081] # ruta 103
+Land,21
+    100,PIKACHU,22,27
+#-------------------------------
+[082] # sidequest 1
+Land,21
+    100,PIKACHU,22,27
+#-------------------------------
+[088] # ruta 104
+Land,21
+    100,PIKACHU,30,34
+#-------------------------------
+[089] # Castiñeiras
+Water,2
+    100,PIKACHU,32,37
+OldRod
+    100,PIKACHU,32,37
+SuperRod
+    100,PIKACHU,32,37
+#-------------------------------
+[131] # A Garita
+Land,21
+    100,PIKACHU,32,37
+#-------------------------------
+[091] # ruta 105
+Water,2
+    100,PIKACHU,37,40
+OldRod
+    100,PIKACHU,37,40
+SuperRod
+    100,PIKACHU,37,40
+#-------------------------------
+[092] # Canarias
+Water,2
+    100,PIKACHU,40,43
+OldRod
+    100,PIKACHU,40,43
+SuperRod
+    100,PIKACHU,40,43
+#-------------------------------
+[094] # ruta 106
+Land,21
+    100,PIKACHU,43,45
+Water,2
+    100,PIKACHU,43,45
+OldRod
+    100,PIKACHU,43,45
+SuperRod
+    100,PIKACHU,43,45
+#-------------------------------
+[128] # Volcan
+Cave,5
+    100,PIKACHU,43,45
+#-------------------------------
+[149] # Bajo del mar
+Land,21
+    100,PIKACHU,43,45
+#-------------------------------
 [099] # ruta 107
 Land,21
     100,PIKACHU,45,47
+OldRod
+    100,PIKACHU,45,47
+SuperRod
+    100,PIKACHU,45,47
+#-------------------------------
+[100] # Ciudad fresquiño
+Water,2
+    100,PIKACHU,47,50
+OldRod
+    100,PIKACHU,47,50
+SuperRod
+    100,PIKACHU,47,50
 #-------------------------------
 [102] # ruta 108
 Cave,5
