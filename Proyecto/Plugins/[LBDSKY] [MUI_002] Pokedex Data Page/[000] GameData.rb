@@ -148,9 +148,9 @@ module GameData
       # Determines the species name.
       if GameData::Species.exists?(species)
         prefix = ""
-        if @id.to_s.include?("female")
+        if @id.to_s.downcase.include?("female")
           prefix = " siendo hembra"
-        elsif @id.to_s.include?("male")
+        elsif @id.to_s.downcase.include?("male")
           prefix = " siendo macho"
         end
         form = false if evo == :MOTHIM
@@ -310,6 +310,7 @@ GameData::Evolution.each do |evo|
   when :LevelWithPartner                       then evo.description = _INTL("subiendo de nivel junto a un aliado")
   when :LevelUseMoveCount                      then evo.description = _INTL("tras usar el movimiento {1} 20 veces")
   when :LevelRecoilDamage                      then evo.description = _INTL("tras perder al menos {1} PS por daño de retroceso")
+  when :LevelRecoilDamageForm0                 then evo.description = _INTL("tras perder al menos {1} PS por daño de retroceso")
   when :LevelDefeatItsKindWithItem             then evo.description = _INTL("tras vencer a 3 de su misma especie que tengan el objeto {1}")
   when :CollectItems                           then evo.description = _INTL("teniendo al menos 999x {2} en la mochila")
   end

@@ -76,12 +76,14 @@ class PokemonPartyScreen
       command_list.push(_INTL("Cancelar"))
       if !pkmn.egg? && show_field_moves
         insert_index = ($DEBUG) ? 2 : 1
-        pkmn.moves.each_with_index do |move, i|
-          next if !HiddenMoveHandlers.hasHandler(move.id) &&
-                  ![:MILKDRINK, :SOFTBOILED].include?(move.id)
-          command_list.insert(insert_index, [move.name, :Blue])
-          commands.insert(insert_index, i)
-          insert_index += 1
+        if Settings::SHOW_HMS_IN_PARTY_MENU
+          pkmn.moves.each_with_index do |move, i|
+            next if !HiddenMoveHandlers.hasHandler(move.id) &&
+                    ![:MILKDRINK, :SOFTBOILED].include?(move.id)
+            command_list.insert(insert_index, [move.name, :Blue])
+            commands.insert(insert_index, i)
+            insert_index += 1
+          end
         end
       end
       choice = @scene.pbShowCommands(_INTL("¿Qué hacer con {1}?", pkmn.name), command_list)
@@ -149,5 +151,32 @@ class PokemonPartyScreen
     end
     @scene.pbEndScene
     return ret
+  end
+end
+
+#===============================================================================
+# Fix to prevent Shedinja from inheriting certain traits upon evolution.
+#===============================================================================
+class PokemonEvolutionScene
+  def self.pbDuplicatePokemon(pkmn, new_species)
+    new_pkmn = pkmn.clone
+    new_pkmn.species    = new_species
+    new_pkmn.name       = nil
+    new_pkmn.markings   = []
+    new_pkmn.poke_ball  = :POKEBALL
+    new_pkmn.item       = nil
+    if PluginManager.installed?("[MUI] Enhanced Pokemon UI")
+      new_pkmn.shiny_leaf = 0
+      new_pkmn.resetLegacyData
+      new_pkmn.legacy_data.each_key do |key|
+        new_pkmn.legacy_data[key] = pkmn.legacy_data[key]
+      end
+    end
+    new_pkmn.clearAllRibbons
+    new_pkmn.calc_stats
+    new_pkmn.heal
+    $player.party.push(new_pkmn)
+    $player.pokedex.register(new_pkmn)
+    $player.pokedex.set_owned(new_species)
   end
 end
