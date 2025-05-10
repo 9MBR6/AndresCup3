@@ -405,89 +405,117 @@ BattleBack = city
 Name = Furret Town
 Outdoor = true
 ShowArea = true
+MapPosition = 2,25,15
 #-------------------------------
 [079]   # ruta 102
 Name = Ruta 102
 Outdoor = true
 ShowArea = true
+MapPosition = 2,26,15
 #-------------------------------
 [080]   # pueblo 3
 Name = Blumendorf
 Outdoor = true
 ShowArea = true
+MapPosition = 2,27,12
 #-------------------------------
 [081]   # ruta 103
 Name = Ruta 103
 Outdoor = true
 ShowArea = true
 Weather = HeavyRain,100
+MapPosition = 2,27,10
 Environment = Puddle
 #-------------------------------
 [082]   # sidequest 1
 Name = Bosque oscuro
 Outdoor = true
 ShowArea = true
-BattleBack = 
+MapPosition = 2,27,10
 Environment = Forest
 #-------------------------------
 [083]   # Pueblo Inicio
 Name = Pueblo Paleta
 Outdoor = true
 ShowArea = true
+MapPosition = 2,25,18
+#-------------------------------
+[084]   # Centro Pokémon
+Name = Centro Pokémon
+MapPosition = 2,25,15
 #-------------------------------
 [085]   # gym 1
 Name = Iw4nn gym
 ShowArea = true
+MapPosition = 2,25,15
+#-------------------------------
+[086]   # Adolfo gym
+Name = Adolfo gym
+MapPosition = 2,27,12
 #-------------------------------
 [088]   # ruta 104
 Name = Ruta 104
 Outdoor = true
 ShowArea = true
+MapPosition = 2,27,7
 #-------------------------------
 [089]   # Castiñeiras
 Name = Castiñeiras
 Outdoor = true
 ShowArea = true
+MapPosition = 2,26,6
 #-------------------------------
 [090]   # Gimnasio Muerte Segura
 Name = Gimnasio Muerte Segura
 ShowArea = true
+MapPosition = 2,26,6
 #-------------------------------
 [091]   # ruta 105
 Name = ruta 105
 Outdoor = true
 ShowArea = true
+MapPosition = 2,21,3
 #-------------------------------
 [092]   # Canarias
 Name = Canarias
 Outdoor = true
 ShowArea = true
+MapPosition = 2,18,3
 #-------------------------------
 [093]   # Yago gym
 Name = Yago gym
 ShowArea = true
+MapPosition = 2,18,3
 #-------------------------------
 [094]   # ruta 106
 Name = ruta 106
 Outdoor = true
 ShowArea = true
+MapPosition = 2,14,3
 Environment = MovingWater
 #-------------------------------
 [095]   # Playa en el jardin
 Name = Playa en el jardín
 ShowArea = true
+MapPosition = 2,18,3
 #-------------------------------
 [097]   # Marina Door
 Name = Marina Door
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 2,7,4
+#-------------------------------
+[098]   # Ciudad Fresquiño Centro Pokémon
+Name = Ciudad Fresquiño Centro Pokémon
+MapPosition = 2,5,8
 #-------------------------------
 [099]   # ruta 107
 Name = Ruta 107
 Outdoor = true
 ShowArea = true
 Weather = Sun,100
+MapPosition = 2,5,5
 Environment = Sand
 #-------------------------------
 [100]   # Ciudad fresquiño
@@ -495,17 +523,20 @@ Name = Ciudad Fresquiño
 Outdoor = true
 ShowArea = true
 Weather = Snow,100
+MapPosition = 2,5,8
 Environment = Ice
 #-------------------------------
 [101]   # Matavacas gym
 Name = Matavacas gym
 ShowArea = true
+MapPosition = 2,5,8
 #-------------------------------
 [102]   # ruta 108
 Name = Ruta 108
 Outdoor = true
 ShowArea = true
 Weather = Blizzard,100
+MapPosition = 2,5,10
 BattleBack = snow
 Environment = Snow
 #-------------------------------
@@ -513,111 +544,236 @@ Environment = Snow
 Name = Arrakis
 Outdoor = true
 ShowArea = true
+MapPosition = 2,5,12
 Environment = Rock
+#-------------------------------
+[104]   # Kike gym
+Name = Kike gym
+MapPosition = 2,5,12
 #-------------------------------
 [105]   # ruta 109
 Name = Ruta 109
 Outdoor = true
 ShowArea = true
 Weather = Sandstorm,100
+MapPosition = 2,6,12
 Environment = Sand
 #-------------------------------
 [106]   # Meseta Añil exterior
 Name = Meseta Añil exterior
+Outdoor = true
+ShowArea = true
+MapPosition = 2,12,12
 #-------------------------------
 [107]   # calle victoria
 Name = Calle Victoria
 ShowArea = true
+MapPosition = 2,9,13
 BattleBack = cave1
 Environment = Cave
 #-------------------------------
+[108]   # Liga Pokémon entrada
+Name = Liga Pokémon entrada
+MapPosition = 2,12,11
+#-------------------------------
 [109]   # Liga Pokémon sala 1
 Name = Liga Pokémon sala 1
+MapPosition = 2,12,11
 BattleBack = elite1
 #-------------------------------
 [110]   # Liga Pokémon sala 2
 Name = Liga Pokémon sala 2
+MapPosition = 2,12,11
 BattleBack = elite3
 #-------------------------------
 [111]   # Liga Pokémon sala 3
 Name = Liga Pokémon sala 3
+MapPosition = 2,12,11
 BattleBack = elite1
 #-------------------------------
 [112]   # Liga Pokémon sala 4
 Name = Liga Pokémon sala 4
+MapPosition = 2,12,11
 BattleBack = champion1
 #-------------------------------
 [113]   # Liga Pokémon sala 5
 Name = Liga Pokémon sala 5
+MapPosition = 2,12,11
 BattleBack = champion2
+#-------------------------------
+[114]   # Hall de la Fama
+Name = Hall de la Fama
+MapPosition = 2,12,11
+#-------------------------------
+[115]   # Centro Pokémon
+Name = Centro Pokémon
+MapPosition = 2,7,4
 #-------------------------------
 [116]   # Gimnasio Chill
 Name = Chill gym
 ShowArea = true
+MapPosition = 2,7,4
+#-------------------------------
+[117]   # coviña
+Name = coviña
+MapPosition = 2,4,8
+#-------------------------------
+[118]   # Tienda Pokémon
+Name = Tienda Pokémon
+MapPosition = 2,7,4
+#-------------------------------
+[119]   # Tienda Pokémon
+Name = Tienda Pokémon
+MapPosition = 2,5,8
 #-------------------------------
 [120]   # Boss arena
 Name = Boss arena
 ShowArea = true
+MapPosition = 2,5,12
 BattleBack = cave1
 Environment = Cave
+#-------------------------------
+[121]   # Casino
+Name = Casino
+MapPosition = 2,7,4
 #-------------------------------
 [122]   # cova cascada
 Name = Cueva cascada
 ShowArea = true
+MapPosition = 2,5,11
 BattleBack = cave1
 Environment = None
+#-------------------------------
+[123]   # Arrakis Centro Pokémon
+Name = Arrakis Centro Pokémon
+MapPosition = 2,5,12
 #-------------------------------
 [124]   # sidequest
 Name = sidequest
 ShowArea = true
+MapPosition = 2,9,13
 DarkMap = true
 BattleBack = distortion
+#-------------------------------
+[125]   # Hotel
+Name = Hotel
+MapPosition = 2,7,4
 #-------------------------------
 [126]   # Nido de la araña
 Name = Nido de la araña
 ShowArea = true
+MapPosition = 2,6,5
 SnapEdges = true
+#-------------------------------
+[127]   # Marina door entrada
+Name = Marina door entrada
+MapPosition = 2,11,3
 #-------------------------------
 [128]   # Volcan
 Name = Teide
 ShowArea = true
+MapPosition = 2,12,2
 BattleBack = rocky_eve
 Environment = Volcano
+#-------------------------------
+[129]   # Tienda Pokémon
+Name = Tienda Pokémon
+MapPosition = 2,18,3
+#-------------------------------
+[130]   # Centro Pokémon
+Name = Centro Pokémon
+MapPosition = 2,18,3
 #-------------------------------
 [131]   # A Garita
 Name = A Garita
 Outdoor = true
 ShowArea = true
+MapPosition = 2,26,5
 #-------------------------------
 [132]   # Farmacia Xurxo
 Name = Farmacia Xurxo
 ShowArea = true
+MapPosition = 2,26,6
 #-------------------------------
 [133]   # Amegakure
 Name = Amegakure
 Outdoor = true
 ShowArea = true
 Weather = Rain,100
+MapPosition = 2,27,9
+#-------------------------------
+[134]   # Centro Pokémon
+Name = Centro Pokémon
+MapPosition = 2,28,8
+#-------------------------------
+[135]   # Tienda Pokémon
+Name = Tienda Pokémon
+MapPosition = 2,27,9
 #-------------------------------
 [136]   # Piso de Noa
 Name = Piso de Noa
 ShowArea = true
+MapPosition = 2,27,9
+#-------------------------------
+[137]   # Manu gym
+Name = Manu gym
+MapPosition = 2,27,8
+#-------------------------------
+[138]   # Amegakure entrada
+Name = Amegakure entrada
+MapPosition = 2,27,9
+#-------------------------------
+[139]   # Tienda Pokémon
+Name = Tienda Pokémon
+MapPosition = 2,27,12
+#-------------------------------
+[140]   # Centro Pokémon
+Name = Centro Pokémon
+MapPosition = 2,27,12
 #-------------------------------
 [141]   # TTGL
 Name = TTGL
 ShowArea = true
+MapPosition = 2,28,15
 #-------------------------------
 [142]   # Ruta 1
 Name = Ruta 101
 Outdoor = true
 ShowArea = true
+MapPosition = 2,25,16
+#-------------------------------
+[143]   # Casa de César
+Name = Casa de César
+MapPosition = 2,25,16
+#-------------------------------
+[144]   # Tienda Pokémon
+Name = Tienda Pokémon
+MapPosition = 2,25,15
+#-------------------------------
+[145]   # Casa abandonada
+Name = Casa abandonada
+MapPosition = 2,25,15
+#-------------------------------
+[146]   # Casa del jugador
+Name = Casa del jugador
+MapPosition = 2,25,17
+#-------------------------------
+[147]   # Casa de Dalia
+Name = Casa de Dalia
+MapPosition = 2,25,17
+#-------------------------------
+[148]   # Laboratorio Pokémon
+Name = Laboratorio Pokémon
+MapPosition = 2,25,17
 #-------------------------------
 [149]   # Bajo del mar
 Name = Bajo del mar
 ShowArea = true
+MapPosition = 2,12,4
 BattleBack = cave3
 #-------------------------------
 [150]   # Afueras Zona Safari
 Name = Afueras Zona Safari
 Outdoor = true
 ShowArea = true
+MapPosition = 2,24,17
