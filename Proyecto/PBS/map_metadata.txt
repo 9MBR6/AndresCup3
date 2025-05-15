@@ -412,6 +412,7 @@ Name = Ruta 102
 Outdoor = true
 ShowArea = true
 MapPosition = 2,26,15
+Environment = Rock
 #-------------------------------
 [080]   # pueblo 3
 Name = Blumendorf
@@ -432,6 +433,7 @@ Name = Bosque oscuro
 Outdoor = true
 ShowArea = true
 MapPosition = 2,27,10
+BattleBack = field_night
 Environment = Forest
 #-------------------------------
 [083]   # Pueblo Inicio
@@ -458,6 +460,7 @@ Name = Ruta 104
 Outdoor = true
 ShowArea = true
 MapPosition = 2,27,7
+Environment = ForestGrass
 #-------------------------------
 [089]   # Castiñeiras
 Name = Castiñeiras
@@ -741,6 +744,7 @@ Name = Ruta 101
 Outdoor = true
 ShowArea = true
 MapPosition = 2,25,16
+Environment = Grass
 #-------------------------------
 [143]   # Casa de César
 Name = Casa de César

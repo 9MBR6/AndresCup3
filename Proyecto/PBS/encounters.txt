@@ -318,79 +318,87 @@ Land,21
 #-------------------------------
 [083] # Pueblo inicio
 Land,21
-    100,PIKACHU,5,9
+    100,PIKACHU,3,6
 Water,2
-    100,PIKACHU,5,9
+    100,PIKACHU,3,6
 OldRod
-    100,PIKACHU,5,9
+    100,PIKACHU,3,6
 SuperRod
-    100,PIKACHU,5,9
+    100,PIKACHU,3,6
 #-------------------------------
 [150] # Afueras Zona Safari
 Land,21
-    100,PIKACHU,5,9
+    100,PIKACHU,5,8
 #-------------------------------
 [142] # ruta 101
 Land,21
-    100,PIKACHU,5,12
+    100,PIKACHU,5,8
+#-------------------------------
+[078] # pueblo 2
+Water,2
+    100,PIKACHU,12,15
+OldRod
+    100,PIKACHU,12,15
+SuperRod
+    100,PIKACHU,12,15
 #-------------------------------
 [079] # ruta 102
 Land,21
-    100,PIKACHU,14,19
+    100,PIKACHU,12,17
 #-------------------------------
 [141] # TTGL
 Cave,5
-    100,PIKACHU,14,19
+    100,PIKACHU,12,17
 #-------------------------------
 [081] # ruta 103
 Land,21
-    100,PIKACHU,22,27
+    100,PIKACHU,20,25
 #-------------------------------
 [082] # sidequest 1
 Land,21
-    100,PIKACHU,22,27
+    100,PIKACHU,20,25
 #-------------------------------
 [088] # ruta 104
 Land,21
-    100,PIKACHU,30,34
+    100,PIKACHU,27,31
 #-------------------------------
 [089] # Castiñeiras
 Water,2
-    100,PIKACHU,32,37
+    100,PIKACHU,30,33
 OldRod
-    100,PIKACHU,32,37
+    100,PIKACHU,30,33
 SuperRod
-    100,PIKACHU,32,37
+    100,PIKACHU,30,33
 #-------------------------------
 [131] # A Garita
 Land,21
-    100,PIKACHU,32,37
+    100,PIKACHU,30,33
 #-------------------------------
 [091] # ruta 105
 Water,2
-    100,PIKACHU,37,40
+    100,PIKACHU,35,37
 OldRod
-    100,PIKACHU,37,40
+    100,PIKACHU,35,37
 SuperRod
-    100,PIKACHU,37,40
+    100,PIKACHU,35,37
 #-------------------------------
 [092] # Canarias
 Water,2
-    100,PIKACHU,40,43
+    100,PIKACHU,37,40
 OldRod
-    100,PIKACHU,40,43
+    100,PIKACHU,37,40
 SuperRod
-    100,PIKACHU,40,43
+    100,PIKACHU,37,40
 #-------------------------------
 [094] # ruta 106
 Land,21
-    100,PIKACHU,43,45
+    100,PIKACHU,40,43
 Water,2
-    100,PIKACHU,43,45
+    100,PIKACHU,40,43
 OldRod
-    100,PIKACHU,43,45
+    100,PIKACHU,40,43
 SuperRod
-    100,PIKACHU,43,45
+    100,PIKACHU,40,43
 #-------------------------------
 [128] # Volcan
 Cave,5
@@ -402,26 +410,30 @@ Land,21
 #-------------------------------
 [099] # ruta 107
 Land,21
-    100,PIKACHU,45,47
+    100,PIKACHU,42,45
 OldRod
-    100,PIKACHU,45,47
+    100,PIKACHU,42,45
 SuperRod
-    100,PIKACHU,45,47
+    100,PIKACHU,42,45
 #-------------------------------
 [100] # Ciudad fresquiño
 Water,2
-    100,PIKACHU,47,50
+    100,PIKACHU,45,47
 OldRod
-    100,PIKACHU,47,50
+    100,PIKACHU,45,47
 SuperRod
-    100,PIKACHU,47,50
+    100,PIKACHU,45,47
 #-------------------------------
 [102] # ruta 108
 Cave,5
-    100,PIKACHU,50,55
+    100,PIKACHU,47,52
 #-------------------------------
 [105] # ruta 109
 Cave,5
+    100,PIKACHU,52,55
+#-------------------------------
+[106] # Meseta Añil exterior
+Land,21
     100,PIKACHU,55,60
 #-------------------------------
 [107] # calle victoria
@@ -434,7 +446,7 @@ RockSmash,100
 #-------------------------------
 [122] # cova cascada
 Cave,5
-    100,PIKACHU,50,55
+    100,PIKACHU,47,52
 #-------------------------------
 [124] # sidequest
 Cave,5
@@ -442,9 +454,9 @@ Cave,5
 #-------------------------------
 [126] # Nido de la araña
 Land,21
-    100,PIKACHU,45,47
+    100,PIKACHU,42,45
 Water,2
-    100,PIKACHU,45,47
+    100,PIKACHU,42,45
 #-------------------------------
 [137] # Manu gym
 RockSmash,100

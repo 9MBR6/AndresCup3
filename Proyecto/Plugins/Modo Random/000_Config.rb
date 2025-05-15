@@ -53,7 +53,7 @@ module RandomizedChallenge
   # RANDOMIZAR COMPATIBILIDAD DE LAS MTs
   # Si quieres que el aprendizaje de MTs sea aleatorio.
   # Puedes modificar esto en cualquier momento llamando al método toggle_tm_compat.
-  RANDOM_TM_COMPAT_DEFAULT_VALUE = true
+  RANDOM_TM_COMPAT_DEFAULT_VALUE = false
 
   # RANDOMIZAR EVOLUCIONES
   # Si quieres que las evoluciones estén randomizadas.
@@ -78,7 +78,7 @@ module RandomizedChallenge
   
   # Lista de movimientos que no pueden aparecer en el modo Random.
   # Debes añadirlos con el nombre interno que aparece en el PBS moves.txt.
-  MOVEBLACKLIST=[:TELEPORT, :SONICBOOM, :DRAGONRAGE, :STRUGGLE, :GUILLOTINE, :FISSURE, :HORNDRILL, :SHEERCOLD, :CELEBRATE, :HOLDHANDS]
+  MOVEBLACKLIST=[:TELEPORT, :SONICBOOM, :DRAGONRAGE, :STRUGGLE, :GUILLOTINE, :FISSURE, :HORNDRILL, :SHEERCOLD, :CELEBRATE, :HOLDHANDS, :REVIVALBLESSING]
   
   # Lista de posibles Pokémon que aparecerán como Pokémon Iniciales.
   ListaStartersRandomizado = [
@@ -112,7 +112,7 @@ module RandomizedChallenge
   # Lista de habilidades que no pueden aparecer en el modo Random.
   # Debes añadirlas con el nombre interno que aparece en el PBS abilities.txt.
   ABILITY_EXCLUSIONS = [
-    :WONDERGUARD,:FORECAST,
+    :WONDERGUARD,:FORECAST,:DEFEATIST,:KLUTZ,:SLOWSTART,:STALL,:TRUANT,
     :BATTLEBOND,:HUNGERSWITCH,:SHIELDSDOWN,:SCHOOLING,:RKSSYSTEM,:POWERCONSTRUCT, 
     :STANCECHANGE, :ZENMODE,:COMMANDER, :MULTITYPE, :GULPMISSILE, :ICEFACE, :ZEROTOHERO, :DISGUISE, :TERASHIFT, :TERASHELL, :TERAFORMZERO
   ]

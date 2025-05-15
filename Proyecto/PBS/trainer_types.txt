@@ -540,6 +540,7 @@ BattleBGM = Miku
 Name = Pokémon holgazán
 Gender = Unknown
 BaseMoney = 100
+SkillLevel = 1
 BattleBGM = slaking
 #-------------------------------
 [SASI1]
@@ -586,7 +587,7 @@ VictoryBGM = Battle victory leader
 Name = Pastelera
 Gender = Female
 SkillLevel = 100
-BaseMoney = 100
+BaseMoney = 200
 BattleBGM = mus_spider
 #-------------------------------
 [MAYA]
@@ -676,7 +677,7 @@ Name = Sarxento
 Gender = Male
 BaseMoney = 40
 BattleBGM = keroro
-SkillLevel = 100
+SkillLevel = 1
 #-------------------------------
 [FANTASMA]
 Name = Mega
