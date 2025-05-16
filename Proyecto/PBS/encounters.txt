@@ -338,7 +338,7 @@ Land,21
 Water,2
     100,PIKACHU,12,15
 OldRod
-    100,PIKACHU,12,15
+    100,PIKACHU,5,10
 SuperRod
     100,PIKACHU,12,15
 #-------------------------------
@@ -349,6 +349,10 @@ Land,21
 [141] # TTGL
 Cave,5
     100,PIKACHU,12,17
+#-------------------------------
+[080] # pueblo 3
+Land,21
+    100,PIKACHU,15,20
 #-------------------------------
 [081] # ruta 103
 Land,21
@@ -366,7 +370,15 @@ Land,21
 Water,2
     100,PIKACHU,30,33
 OldRod
+    100,PIKACHU,5,10
+SuperRod
     100,PIKACHU,30,33
+#-------------------------------
+[090] # Gimnasio Muerte Segura
+Water,2
+    100,PIKACHU,30,33
+OldRod
+    100,PIKACHU,5,10
 SuperRod
     100,PIKACHU,30,33
 #-------------------------------
@@ -378,7 +390,7 @@ Land,21
 Water,2
     100,PIKACHU,35,37
 OldRod
-    100,PIKACHU,35,37
+    100,PIKACHU,5,10
 SuperRod
     100,PIKACHU,35,37
 #-------------------------------
@@ -386,7 +398,7 @@ SuperRod
 Water,2
     100,PIKACHU,37,40
 OldRod
-    100,PIKACHU,37,40
+    100,PIKACHU,5,10
 SuperRod
     100,PIKACHU,37,40
 #-------------------------------
@@ -396,9 +408,15 @@ Land,21
 Water,2
     100,PIKACHU,40,43
 OldRod
-    100,PIKACHU,40,43
+    100,PIKACHU,5,10
 SuperRod
     100,PIKACHU,40,43
+#-------------------------------
+[095] # Playa en el jardin
+OldRod
+    100,PIKACHU,5,10
+SuperRod
+    100,PIKACHU,40,66
 #-------------------------------
 [128] # Volcan
 Cave,5
@@ -412,7 +430,7 @@ Land,21
 Land,21
     100,PIKACHU,42,45
 OldRod
-    100,PIKACHU,42,45
+    100,PIKACHU,5,10
 SuperRod
     100,PIKACHU,42,45
 #-------------------------------
@@ -420,7 +438,7 @@ SuperRod
 Water,2
     100,PIKACHU,45,47
 OldRod
-    100,PIKACHU,45,47
+    100,PIKACHU,5,10
 SuperRod
     100,PIKACHU,45,47
 #-------------------------------
@@ -440,6 +458,10 @@ Land,21
 Cave,5
     100,PIKACHU,55,60
 #-------------------------------
+[103] # Arrakis
+RockSmash,100
+    100,PIKACHU,50,55
+#-------------------------------
 [120] # Boss arena
 RockSmash,100
     100,PIKACHU,50,55
@@ -456,6 +478,10 @@ Cave,5
 Land,21
     100,PIKACHU,42,45
 Water,2
+    100,PIKACHU,42,45
+OldRod
+    100,PIKACHU,5,10
+SuperRod
     100,PIKACHU,42,45
 #-------------------------------
 [137] # Manu gym

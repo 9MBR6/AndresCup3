@@ -738,6 +738,7 @@ MapPosition = 2,27,12
 Name = TTGL
 ShowArea = true
 MapPosition = 2,28,15
+DarkMap = true
 #-------------------------------
 [142]   # Ruta 1
 Name = Ruta 101
