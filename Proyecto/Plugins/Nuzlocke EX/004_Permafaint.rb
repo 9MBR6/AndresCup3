@@ -44,7 +44,7 @@ ItemHandlers::UseOnPokemon.add(:REVIVE, proc { |item, qty, pkmn, scene|
     scene.pbDisplay(_INTL("Lo que no está muerto no se puede revivir."))
     next false
   end
-  pkmn.perma_faint =  false
+  pkmn.perma_faint = false
   pbSEPlay("Use item in party")
   pkmn.hp = (pkmn.totalhp / 2).floor
   pkmn.hp = 1 if pkmn.hp <= 0
@@ -59,7 +59,7 @@ ItemHandlers::UseOnPokemon.add(:MAXREVIVE, proc { |item, qty, pkmn, scene|
     scene.pbDisplay(_INTL("Lo que no está muerto no se puede revivir."))
     next false
   end
-  pkmn.perma_faint =  false
+  pkmn.perma_faint = false
   pbSEPlay("Use item in party")
   pkmn.heal_HP
   pkmn.heal_status
@@ -75,7 +75,7 @@ ItemHandlers::UseOnPokemon.add(:REVIVALHERB, proc { |item, qty, pkmn, scene|
     scene.pbDisplay(_INTL("It won't have any effect."))
     next false
   end
-  pkmn.perma_faint =  false
+  pkmn.perma_faint = false
   pbSEPlay("Use item in party")
   pkmn.heal_HP
   pkmn.heal_status
@@ -92,7 +92,7 @@ ItemHandlers::UseInField.add(:SACREDASH, proc { |item|
   end
   canrevive = false
   $player.pokemon_party.each do |i|
-    next if !i.fainted? || i.perma_faint
+    next if !i.fainted?
     canrevive = true
     break
   end
@@ -107,7 +107,8 @@ ItemHandlers::UseInField.add(:SACREDASH, proc { |item|
     screen.pbStartScene(_INTL("Using item..."), false)
     pbSEPlay("Use item in party")
     $player.party.each_with_index do |pkmn, i|
-      next if !pkmn.fainted? || i.perma_faint
+      next if !pkmn.fainted? 
+	  pkmn.perma_faint = false
       revived += 1
       pkmn.heal
       screen.pbRefreshSingle(i)

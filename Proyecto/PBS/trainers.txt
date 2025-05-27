@@ -201,12 +201,22 @@ Pokemon = SQUIRTLE,50
 #-------------------------------
 [TEEMO,Teemo]
 LoseText = Nunca subestimes el poder del código de los exploradores
-Pokemon = PARASECT, 47
-Pokemon = AMOONGUSS, 46
-Pokemon = SHIINOTIC, 47
-Pokemon = TOEDSCRUEL, 46
-Pokemon = BRELOOM, 46
-Pokemon = BRUTEBONNET, 47
+Pokemon = PARASECT, 45
+	AbilityIndex = 0
+	Moves = ABSORB, STUNSPORE, POISONPOWDER
+Pokemon = AMOONGUSS, 43
+	AbilityIndex = 0
+	Moves = ABSORB, GROWTH, RAGEPOWDER, INGRAIN
+Pokemon = SHIINOTIC, 43
+	AbilityIndex = 1
+	Moves = DREAMEATER, MOONLIGHT, SLEEPPOWDER, INGRAIN
+Pokemon = TOEDSCRUEL, 44
+	Moves = ABSORB, GROWTH, SPORE, MUDSHOT
+Pokemon = BRELOOM, 44
+	AbilityIndex = 0
+	Moves = MACHPUNCH, GROWTH, SPORE, LEECHSEED
+Pokemon = BRUTEBONNET, 43
+	Moves = DARKPULSE, GROWTH, STUNSPORE, ABSORB
 #-------------------------------
 [POLILLA,Man]
 Pokemon = VENOMOTH, 47
@@ -296,12 +306,12 @@ Pokemon = METAGROSS,46
 #-------------------------------
 [ELITEFOUR_Lance,Lance]
 LoseText = Quizá este no sea el mejor sitio para dedicarse al arte clásico de la doma de dragones
-Pokemon = EXEGGUTOR,48
+Pokemon = EXEGGUTOR,46
 	Form = 1
-Pokemon = FLYGON,48
-Pokemon = HYDRAPPLE,48
-Pokemon = SALAMENCE,48
-Pokemon = DRAGONITE,50
+Pokemon = FLYGON,46
+Pokemon = HYDRAPPLE,46
+Pokemon = SALAMENCE,46
+Pokemon = DRAGONITE,47
 #-------------------------------
 [IGGLYBUFF,Igglybuffs]
 Pokemon = IGGLYBUFF,1
@@ -404,10 +414,10 @@ Pokemon = DUGTRIO,52
 	Form = 1
 	AbilityIndex = 1
 	Moves = TRIATTACK
-Pokemon = PORYGONZ,52
+Pokemon = PORYGONZ,50
 	AbilityIndex = 0
 	Moves = TRIATTACK
-Pokemon = PROBOPASS,52
+Pokemon = PROBOPASS,50
 	AbilityIndex = 1
 	Moves = TRIATTACK
 Pokemon = MAGNETON,52
@@ -415,26 +425,21 @@ Pokemon = MAGNETON,52
 	Moves = TRIATTACK
 Pokemon = DODRIO,52
 	Moves = TRIATTACK
-Pokemon = SNEASLER,52
-	Moves = DIRECLAW
-	AbilityIndex = 2
 #-------------------------------
 [HIERBAS,Hierbas]
 LoseText = Uh, ¡Qué estrés todo! Yo me voy a hacer una pipa
-Pokemon = VILEPLUME,52
+Pokemon = VILEPLUME,51
 	AbilityIndex = 2
 	Moves = POISONPOWDER,STUNSPORE,SLEEPPOWDER,GIGADRAIN
 Pokemon = JUMPLUFF,52
 	Moves = RAGEPOWDER,COTTONSPORE
-Pokemon = SINISTCHA,52
+Pokemon = SINISTCHA,51
 	AbilityIndex = 0
 	Moves = RAGEPOWDER,MATCHAGOTCHA
-Pokemon = VICTREEBEL,52
+Pokemon = VICTREEBEL,50
 	Moves = SLEEPPOWDER,SWORDSDANCE,LEECHLIFE
-Pokemon = MARACTUS,52
+Pokemon = MARACTUS,51
 	Moves = PETALBLIZZARD,COTTONSPORE,SUCKERPUNCH
-Pokemon = WOCHIEN,53
-	Moves = FOULPLAY,STUNSPORE,POISONPOWDER,GIGADRAIN
 #-------------------------------
 [KIKE,Kike]
 LoseText = Ainda vai ser culpa miña perder
@@ -475,7 +480,8 @@ Pokemon = ORTHWORM,65
 	IV = 31,31,31,31,31,31
 #-------------------------------
 [GOJIRA,Godzilla]
-Pokemon = TYRANITAR,75
+Pokemon = TYRANITAR,70
+	EV = 252,0,125,0,125,0
 	Moves = ROCKSLIDE,BITE,HYPERBEAM,REST
 #-------------------------------
 [COOLTRAINER_M,Arena Enjoyer]
@@ -1464,9 +1470,9 @@ Pokemon = PIKACHU,43
 #-------------------------------
 [BUGCATCHER,José Antonio]
 LoseText = Igual debería añadir más variedad de pokémon a mi equipo
-Pokemon = SHEDINJA,36
+Pokemon = SHEDINJA,34
 	Item = FOCUSSASH
-Pokemon = SHEDINJA,36
+Pokemon = SHEDINJA,35
 	Moves = THIEF,SHADOWSNEAK,XSCISSOR
 Pokemon = SHEDINJA,32
 	Item = CHOICESCARF
@@ -1549,7 +1555,7 @@ Pokemon = BANETTE,33
 [ELITEFOUR_Agatha,Encarnita]
 LoseText = A quien no le va a gustá
 Pokemon = FALINKS,28
-	Moves = NORETREAT,FIRSTIMPRESSION,CLOSECOMBAT
+	Moves = NORETREAT,FIRSTIMPRESSION,ROCKSMASH
 Pokemon = STONJOURNER,27
 Pokemon = NACLSTACK,28
 Pokemon = DUGTRIO,28
@@ -1612,7 +1618,7 @@ Pokemon = MIGHTYENA,26
 	AbilityIndex = 0
 	Moves = THIEF,SUCKERPUNCH,PLAYROUGH
 Pokemon = LOMBRE,26
-	Moves = THIEF,LEECHSEED,GIGADRAIN,HYDROPUMP
+	Moves = THIEF,LEECHSEED,GIGADRAIN,WATERGUN
 Pokemon = KECLEON,28
 	Item = ASSAULTVEST
 	IV = 31,31,31,31,31,31
@@ -1659,7 +1665,7 @@ Pokemon = TYRANITAR,27
 	Name = Tyrakiqes
 	Item = ROCKYHELMET
 	AbilityIndex = 3
-	Moves = DRILLRUN,TOXICSPIKES,DRAGONCLAW,VCREATE
+	Moves = DRILLRUN,TOXICSPIKES,DRAGONCLAW
 Pokemon = MAWILE,28
 	Name = Kiqemorreos
 	Item = LIFEORB
@@ -1686,11 +1692,11 @@ Pokemon = SEISMITOAD,20
 #-------------------------------
 [CUEBALL,Toretto]
 LoseText = Veo que conoces el verdadero significado de la familia
-Pokemon = MAUSHOLD,48
+Pokemon = MAUSHOLD,46
 	Item = WIDELENS
 	AbilityIndex = 2
 	Moves = POPULATIONBOMB
-Pokemon = WISHIWASHI,47
+Pokemon = WISHIWASHI,45
 	Moves = FLIPTURN,SCALESHOT,SCALD,ICEBEAM
 Pokemon = COMBEE,48
 	Item = EVIOLITE
@@ -1698,7 +1704,7 @@ Pokemon = COMBEE,48
 	EV = 252,0,125,0,125,0
 	AbilityIndex = 2
 	Moves = TAILWIND,DUALWINGBEAT,LUNGE
-Pokemon = KANGASKHAN,47
+Pokemon = KANGASKHAN,45
 	Form = 1
 	Moves = FAKEOUT,CRUNCH,ICEPUNCH,LOWKICK
 #-------------------------------
@@ -1994,10 +2000,10 @@ Pokemon = SHARPEDO,45
 #-------------------------------
 [ELITEFOUR_Lance,Archer]
 LoseText = People die if they are killed
-Pokemon = HONEDGE,13
+Pokemon = HONEDGE,11
 	Moves = SHADOWSNEAK,SWORDSDANCE,NIGHTSLASH,SACREDSWORD
 	Shiny = true
-Pokemon = HONEDGE,14
+Pokemon = HONEDGE,12
 	Moves = PSYCHOCUT,BRUTALSWING,IRONHEAD,AERIALACE
 #-------------------------------
 [LADY,Hanekawa]
@@ -2095,3 +2101,34 @@ Pokemon = FLAMIGO,5
 	AbilityIndex = 2
 	Moves = COPYCAT,DOUBLEKICK,PECK,AGILITY
 	Shiny = true
+#-------------------------------
+[SAILOR,de la marina]
+LoseText = No tendrás una "D" en tu apellido por casualidad?
+Pokemon = REGIELEKI,44
+	Moves = EXTREMESPEED,CHARGEBEAM
+Pokemon = DARMANITAN,45
+	Form = 2
+	AbilityIndex = 0
+	Moves = BLIZZARD,CHILLYRECEPTION
+Pokemon = MAGMORTAR,46
+	AbilityIndex = 0
+	Moves = FIREPUNCH,LAVAPLUME,TEMPERFLARE
+Pokemon = HARIYAMA,47
+	Item = LIFEORB
+	AbilityIndex = 2
+	Moves = HEAVYSLAM,FORCEPALM,KNOCKOFF,BODYPRESS
+#-------------------------------
+[SWIMMER_F,Disléxica]
+LoseText = Mi pikacho y yo seguiremos entrenando en el agua para potenciar sus ataques eléctricos
+Pokemon = PIKACHU,43
+	Name = Pistacho
+	Form = 5
+Pokemon = EMOLGA,43
+	Name = Pikucho
+	AbilityIndex = 2
+Pokemon = DEDENNE,44
+	Name = Pichako
+Pokemon = TOGEDEMARU,43
+	Name = Pokacho
+Pokemon = MORPEKO,43
+	Name = Pichuko

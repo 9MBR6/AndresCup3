@@ -435,6 +435,8 @@ SuperRod
     100,PIKACHU,42,45
 #-------------------------------
 [100] # Ciudad fresquiño
+Land,21
+    100,PIKACHU,45,47
 Water,2
     100,PIKACHU,45,47
 OldRod

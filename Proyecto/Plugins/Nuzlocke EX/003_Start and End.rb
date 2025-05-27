@@ -49,7 +49,7 @@ def pbStartOver(*args)
   if resume && !ChallengeModes.on?(:GAME_OVER_WHITEOUT)
     loop do
       pbMessage("\\w[]\\wm\\c[8]\\l[3]" + 
-        _INTL("All your Pokémon have fainted. But you still have Pokémon in your PC which you can continue the challenge with."))
+        _INTL("Has palmao, pero todavía queda esperanza, usa los pokémon de tu PC para recomponer tu equipo y vuelve a intentarlo."))
       pbFadeOutIn(99999) {
         scene = PokemonStorageScene.new
         screen = PokemonStorageScreen.new(scene, $PokemonStorage)
@@ -59,7 +59,7 @@ def pbStartOver(*args)
     end
   else
     pbMessage("\\w[]\\wm\\c[8]\\l[3]" + 
-      _INTL("All your Pokémon have fainted. You have lost the challenge! All challenge modifiers will now be turned off."))
+      _INTL("Todos tus pokémon han murido, puedes volver a empezar una partida nueva, o hablar con Sasi si quieres participar en el torneo."))
     ChallengeModes.set_loss
   end
   return __challenge__pbStartOver(*args)

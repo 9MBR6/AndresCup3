@@ -144,9 +144,10 @@ Gender = Male
 BaseMoney = 100
 #-------------------------------
 [SAILOR]
-Name = Marinero
+Name = Almirantes
 Gender = Male
-BaseMoney = 32
+BaseMoney = 100
+BattleBGM = One Piece pelea dura
 #-------------------------------
 [SCIENTIST]
 Name = Científico
@@ -628,7 +629,7 @@ VictoryBGM = Battle victory leader
 Name = Cofre
 Gender = Unknown
 BaseMoney = 100
-BattleBGM = One Piece pelea dura
+BattleBGM = One Piece pelea
 #-------------------------------
 [NINJAS]
 Name = Grupo de

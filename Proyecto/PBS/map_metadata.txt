@@ -527,6 +527,7 @@ Outdoor = true
 ShowArea = true
 Weather = Snow,100
 MapPosition = 2,5,8
+BattleBack = snow
 Environment = Ice
 #-------------------------------
 [101]   # Matavacas gym
