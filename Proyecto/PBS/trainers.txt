@@ -178,6 +178,7 @@ Pokemon = TORTERRA,46
 	Moves = RAPIDSPIN,SLACKOFF,NIGHTSHADE,UTURN	
 	AbilityIndex = 3
 Pokemon = BLAZIKEN,47
+	Ability = PUREPOWER
 	Name = Poio
 	Form = 1
 	Moves = MACHPUNCH,FAKEOUT,CLOSECOMBAT,UTURN	
@@ -300,8 +301,8 @@ Pokemon = SLAKING,45
 Pokemon = METAGROSS,46
 	Name = RealMetaman
 	Form = 1
+	Ability = REGENERATOR
 	Moves = STEELWING,PSYCHOCUT,VOLTSWITCH	
-	AbilityIndex = 3
 	Shiny = true
 #-------------------------------
 [ELITEFOUR_Lance,Lance]
@@ -471,6 +472,7 @@ Pokemon = INFERNAPE,51
 Pokemon = SCIZOR,53
 	Name = Tijeras
 	Form = 1
+	Ability = TOUGHCLAWS
 	Moves = UTURN,BONERUSH,BULLETPUNCH,RAZORSHELL	
 	AbilityIndex = 3
 #-------------------------------
@@ -935,7 +937,7 @@ Pokemon = GARDEVOIR,58
 Pokemon = LOPUNNY,58
 	Name = Malu
 	Form = 1
-	AbilityIndex = 3
+	Ability = SPEEDBOOST
 	Moves = DRAINPUNCH,BULKUP,EXPLOSION,STONEEDGE
 Pokemon = SALAMENCE,58
 	Name = Air Force 1
@@ -980,7 +982,7 @@ Pokemon = RESHIRAM,59
 Pokemon = ALTARIA,60
 	Name = Granada
 	Form = 1
-	AbilityIndex = 3
+	Ability = TOUGHCLAWS
 	Moves = EARTHQUAKE,NUZZLE,DRAGONDANCE,OUTRAGE
 #-------------------------------
 [PACO,Partys]
@@ -1014,7 +1016,7 @@ Pokemon = LATIAS,59
 Pokemon = METAGROSS,60
 	Name = MT
 	Form = 1
-	AbilityIndex = 4
+	Ability = FLASHFIRE
 	Moves = BULKUP,DIAMONDSTORM,DRAINPUNCH,METALCLAW
 	Shiny = true
 #-------------------------------
@@ -1043,7 +1045,7 @@ Pokemon = HIPPOWDON,62
 Pokemon = SALAMENCE,61
 	Name = Amputadito
 	Form = 1
-	AbilityIndex = 3
+	Ability = REGENERATOR
 	Moves = FLASHCANNON,ICEBEAM,UTURN,SPACIALREND
 Pokemon = MEWTWO,61
 	Name = Sera Ban
@@ -1428,7 +1430,7 @@ Pokemon = GARCHOMP,40
 Pokemon = TYRANITAR,41
 	Name = Cerrajero
 	Form = 1
-	AbilityIndex = 3
+	Ability = ARENATRAP
 	Moves = DRILLPECK,ROCKSLIDE,DRAINPUNCH,DRAGONDANCE
 #-------------------------------
 [COFRE,Sospechoso]
@@ -1550,7 +1552,7 @@ Pokemon = GIRATINA,30
 Pokemon = BANETTE,33
 	Name = Fantasmico
 	Form = 1
-	AbilityIndex = 3
+	Ability = SERENEGRACE
 	Moves = SACREDFIRE,HEARTSTAMP,CROSSCHOP
 #-------------------------------
 [ELITEFOUR_Agatha,Encarnita]
@@ -1675,7 +1677,7 @@ Pokemon = MAWILE,28
 Pokemon = GARDEVOIR,27
 	Name = Kiqfeminino
 	Form = 1
-	AbilityIndex = 3
+	Ability = INFILTRATOR
 	Moves = GIGADRAIN,VENOSHOCK,DRAININGKISS,DRACOMETEOR
 #-------------------------------
 [KERORO,Keroro]
@@ -1968,7 +1970,7 @@ Pokemon = INFERNAPE,11
 Pokemon = CHARIZARD,12
 	Name = Churmander
 	Form = 1
-	AbilityIndex = 3
+	Ability = SOLARPOWER
 	Moves = EXPLOSION
 #-------------------------------
 [GURA,Gura]
