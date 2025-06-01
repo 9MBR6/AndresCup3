@@ -47,16 +47,18 @@ def pbStartOver(*args)
     break
   end
   if resume && !ChallengeModes.on?(:GAME_OVER_WHITEOUT)
-    loop do
-      pbMessage("\\w[]\\wm\\c[8]\\l[3]" + 
-        _INTL("Has palmao, pero todavía queda esperanza, usa los pokémon de tu PC para recomponer tu equipo y vuelve a intentarlo."))
-      pbFadeOutIn(99999) {
-        scene = PokemonStorageScene.new
-        screen = PokemonStorageScreen.new(scene, $PokemonStorage)
-        screen.pbStartScreen(0)
-      }
-      break if $player.able_pokemon_count != 0
-    end
+    pbMessage("\\w[]\\wm\\c[8]\\l[3]" + 
+		_INTL("Has palmao, pero todavía queda esperanza, usa los pokémon de tu PC para recomponer tu equipo y vuelve a intentarlo."))  
+    # loop do
+      # pbMessage("\\w[]\\wm\\c[8]\\l[3]" + 
+        # _INTL("Has palmao, pero todavía queda esperanza, usa los pokémon de tu PC para recomponer tu equipo y vuelve a intentarlo."))
+      # pbFadeOutIn(99999) {
+        # scene = PokemonStorageScene.new
+        # screen = PokemonStorageScreen.new(scene, $PokemonStorage)
+        # screen.pbStartScreen(0)
+      # }
+      # break if $player.able_pokemon_count != 0
+    # end
   else
     pbMessage("\\w[]\\wm\\c[8]\\l[3]" + 
       _INTL("Todos tus pokémon han murido, puedes volver a empezar una partida nueva, o hablar con Sasi si quieres participar en el torneo."))

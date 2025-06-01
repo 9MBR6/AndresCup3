@@ -783,3 +783,7 @@ Name = Afueras Zona Safari
 Outdoor = true
 ShowArea = true
 MapPosition = 2,24,17
+#-------------------------------
+[151]   # PVE
+HealingSpot = 151,12,17
+Environment = Graveyard

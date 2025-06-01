@@ -111,7 +111,7 @@ class Battle::Scene
       rule_name = _INTL(ChallengeModes::RULES[:NO_TRAINER_BATTLE_ITEMS][:name])
       pbSEStop
       pbSEPlay("GUI sel buzzer")
-      pbDisplayPausedMessage(_INTL("The \"{1}\" rule prevents item usage in Trainer Battles!", rule_name))
+      pbDisplayPausedMessage(_INTL("No puedes usar objetos durante el torneo PVE"))
       return [0, -1]
     end
     return __challenge__pbItemMenu(*args, &block)

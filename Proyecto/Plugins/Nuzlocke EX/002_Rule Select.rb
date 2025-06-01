@@ -37,7 +37,6 @@ module ChallengeModes
     GameData::Item.each do |item|
       next if !item.is_poke_ball? || !$bag.has?(item)
       begin_challenge
-      pbMessage(_INTL("Your Challenge has begun! Good Luck!"))
       return
     end
   end

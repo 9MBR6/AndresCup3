@@ -548,7 +548,7 @@ BattleBGM = slaking
 Name = Alto Mando
 Gender = Male
 SkillLevel = 100
-BaseMoney = 100
+BaseMoney = 200
 BattleBGM = sasi1
 VictoryBGM = Battle victory leader
 #-------------------------------
@@ -556,7 +556,7 @@ VictoryBGM = Battle victory leader
 Name = Alto Mando
 Gender = Male
 SkillLevel = 100
-BaseMoney = 100
+BaseMoney = 300
 BattleBGM = sasi2
 VictoryBGM = Battle victory leader
 #-------------------------------
@@ -564,7 +564,7 @@ VictoryBGM = Battle victory leader
 Name = Alto Mando Paco
 Gender = Male
 SkillLevel = 100
-BaseMoney = 100
+BaseMoney = 400
 BattleBGM = totmusica
 VictoryBGM = Battle victory leader
 #-------------------------------
@@ -572,7 +572,7 @@ VictoryBGM = Battle victory leader
 Name = Alto Mando
 Gender = Male
 SkillLevel = 100
-BaseMoney = 100
+BaseMoney = 500
 BattleBGM = Last Surprise
 VictoryBGM = Battle victory leader
 #-------------------------------
@@ -580,7 +580,7 @@ VictoryBGM = Battle victory leader
 Name = Campione del mondo VGC Luca
 Gender = Male
 SkillLevel = 100
-BaseMoney = 100
+BaseMoney = 1000
 BattleBGM = xdono
 VictoryBGM = Battle victory leader
 #-------------------------------
