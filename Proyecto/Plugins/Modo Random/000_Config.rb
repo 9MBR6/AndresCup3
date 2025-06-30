@@ -78,7 +78,7 @@ module RandomizedChallenge
   
   # Lista de movimientos que no pueden aparecer en el modo Random.
   # Debes añadirlos con el nombre interno que aparece en el PBS moves.txt.
-  MOVEBLACKLIST=[:TELEPORT, :SONICBOOM, :DRAGONRAGE, :STRUGGLE, :GUILLOTINE, :FISSURE, :HORNDRILL, :SHEERCOLD, :CELEBRATE, :HOLDHANDS, :REVIVALBLESSING]
+  MOVEBLACKLIST = [:TELEPORT, :SONICBOOM, :DRAGONRAGE, :STRUGGLE, :GUILLOTINE, :FISSURE, :HORNDRILL, :SHEERCOLD, :CELEBRATE, :HOLDHANDS, :REVIVALBLESSING]
   
   # Lista de posibles Pokémon que aparecerán como Pokémon Iniciales.
   ListaStartersRandomizado = [
