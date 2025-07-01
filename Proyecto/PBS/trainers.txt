@@ -1369,18 +1369,18 @@ Pokemon = BIBAREL,43
 	Item = SALACBERRY
 	AbilityIndex = 0
 	IV = 31,31,31,31,31,31
-	Moves = SWORDSDANCE,STRENGTH	
+	Moves = SWORDSDANCE,TACKLE	
 Pokemon = ALCREMIE,42
 	Form = 53
 	Item = LEFTOVERS
 	Moves = DECORATE,AROMATICMIST
 Pokemon = ORICORIO,41
 	Item = HEAVYDUTYBOOTS
-	Moves = QUIVERDANCE,REVELATIONDANCE,AIRCUTTER
+	Moves = QUIVERDANCE,HELPINGHAND,PECK
 Pokemon = TOXTRICITY,41
 	Item = THROATSPRAY
 	AbilityIndex = 0
-	Moves = SHIFTGEAR,BOOMBURST,OVERDRIVE,SLUDGEWAVE
+	Moves = SHIFTGEAR,OVERDRIVE
 #-------------------------------
 [POKEMANIAC,Furro]
 LoseText = Me gustan los pokémon pero no de esa forma

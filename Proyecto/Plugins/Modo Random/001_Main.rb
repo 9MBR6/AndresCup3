@@ -189,7 +189,7 @@ class Pokemon
           for item in moves
               level = item[0]
               move = getRandomMove() 
-              if $player.badge_count < 3
+              if $player.badge_count < 9
                   movedata = GameData::Move.get(move.id)
                   moveExists = $PokemonGlobal.randomMoves[@species].detect{ |elem| elem[1] == (move) }
                   while RandomizedChallenge::MOVEBLACKLIST.include?(move) || moveExists
