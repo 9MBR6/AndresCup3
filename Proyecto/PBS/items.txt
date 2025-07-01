@@ -2886,7 +2886,7 @@ Price = 1500
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = Medicina en spray que cura heridas y restaura 200 PS de un Pokémon.
+Description = Medicina en spray que cura heridas y restaura 120 PS de un Pokémon.
 #-------------------------------
 [MAXPOTION]
 Name = Poción Máxima
