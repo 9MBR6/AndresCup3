@@ -1695,9 +1695,9 @@ Pokemon = SEISMITOAD,20
 #-------------------------------
 [CUEBALL,Toretto]
 LoseText = Veo que conoces el verdadero significado de la familia
-Pokemon = MAUSHOLD,46
+Pokemon = MAUSHOLD,44
 	Item = WIDELENS
-	AbilityIndex = 2
+	AbilityIndex = 1
 	Moves = POPULATIONBOMB
 Pokemon = WISHIWASHI,45
 	Moves = FLIPTURN,SCALESHOT,SCALD,ICEBEAM
