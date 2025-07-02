@@ -134,6 +134,7 @@ Pokemon = ROWLET,45
 Pokemon = SQUAWKABILLY,45
     Item = FLAMEORB
 	AbilityIndex = 4
+	Moves = PECK,QUICKATTACK,FLY		
 Pokemon = CRAMORANT,45
     Moves = SURF,DIVE
 Pokemon = FARFETCHD,45
@@ -309,10 +310,15 @@ Pokemon = METAGROSS,46
 LoseText = Quizá este no sea el mejor sitio para dedicarse al arte clásico de la doma de dragones
 Pokemon = EXEGGUTOR,46
 	Form = 1
+	Moves = DRAGONHAMMER,WOODHAMMER	
 Pokemon = FLYGON,46
+	Moves = DRAGONCLAW,SANDTOMB
 Pokemon = HYDRAPPLE,46
+	Moves = FICKLEBEAM,SYRUPBOMB
 Pokemon = SALAMENCE,46
+	Moves = DRAGONBREATH,FLY
 Pokemon = DRAGONITE,47
+	Moves = DRAGONCLAW,WINGATTACK
 #-------------------------------
 [IGGLYBUFF,Igglybuffs]
 Pokemon = IGGLYBUFF,1
@@ -1112,7 +1118,6 @@ Pokemon = GALVANTULA,46
 	AbilityIndex = 2
 	Moves = ELECTROWEB,BUGBUZZ,VOLTSWITCH,ENERGYBALL
 	IV = 31,31,31,31,31,31
-	EV = 0,0,125,252,125,0
 	Shiny = true
 Pokemon = SPIDOPS,46
 	Item = EXPERTBELT
@@ -1136,7 +1141,6 @@ Pokemon = ARAQUANID,46
 	AbilityIndex = 0
 	Moves = LIQUIDATION,LEECHLIFE
 	IV = 31,31,31,31,31,31
-	EV = 252,125,125,0,0,0
 	Shiny = true
 #-------------------------------
 [MAYA,Maya]
@@ -1440,10 +1444,10 @@ Pokemon = CURSOLA,36
 	Moves = METEORBEAM,GIGADRAIN,ICYWIND,SHADOWBALL
 Pokemon = DHELMISE,37
 	Item = LIFEORB
-	Moves = ANCHORSHOT,SWORDSDANCE,POLTERGEIST,POWERWHIP
+	Moves = ANCHORSHOT,POLTERGEIST,POWERWHIP
 Pokemon = AEGISLASH,36
 	Item = LEFTOVERS
-	Moves = SWORDSDANCE,BRUTALSWING,SHADOWSNEAK,SACREDSWORD
+	Moves = BRUTALSWING,SHADOWSNEAK,SACREDSWORD
 	Shiny = true
 Pokemon = GHOLDENGO,36
 	Item = METALCOAT
@@ -1689,13 +1693,13 @@ Pokemon = SEISMITOAD,20
 [CUEBALL,Toretto]
 LoseText = Veo que conoces el verdadero significado de la familia
 Pokemon = MAUSHOLD,44
-	Item = WIDELENS
 	AbilityIndex = 1
 	Moves = POPULATIONBOMB
 Pokemon = WISHIWASHI,45
-	Moves = FLIPTURN,SCALESHOT,SCALD,ICEBEAM
+	Moves = FLIPTURN,SCALESHOT,SCALD
 Pokemon = COMBEE,48
 	Item = EVIOLITE
+	Gender = male
 	IV = 31,31,31,31,31,31
 	EV = 252,0,125,0,125,0
 	AbilityIndex = 2
@@ -2004,11 +2008,11 @@ Pokemon = HONEDGE,12
 #-------------------------------
 [LADY,Hanekawa]
 LoseText = No lo sé todo, solo sé lo que sé.
-Pokemon = MEOWSTIC,10
+Pokemon = MEOWSTIC,9
 	Gender = Female
 	Form = 1
 	Moves = FAKEOUT,SCRATCH,ZENHEADBUTT
-Pokemon = LITTEN,12
+Pokemon = LITTEN,10
 	AbilityIndex = 2
 	Moves = THRASH,SCARYFACE,BITE,ROAR
 	Shiny = true
@@ -2030,7 +2034,7 @@ Pokemon = NECROZMA,5
 #-------------------------------
 [PSYCHIC_M,Jack Wilder]
 LoseText = Ahora me ves 2...
-Pokemon = ZORUA,10
+Pokemon = ZORUA,8
 	Item = FOCUSSASH
 	Moves = TAUNT,FOULPLAY,PAINSPLIT
 Pokemon = DITTO,7
