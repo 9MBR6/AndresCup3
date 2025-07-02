@@ -481,8 +481,7 @@ Pokemon = SCIZOR,53
 #-------------------------------
 [SHAIHULUD,Shai-Hulud]
 Pokemon = ORTHWORM,65
-	Moves = HEAVYSLAM,IRONDEFENSE,BODYPRESS,DIG	
-	IV = 31,31,31,31,31,31
+	Moves = IRONDEFENSE,BODYPRESS,DIG	
 #-------------------------------
 [GOJIRA,Godzilla]
 Pokemon = TYRANITAR,70
