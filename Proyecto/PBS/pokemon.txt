@@ -16235,7 +16235,7 @@ Shape = Bipedal
 Category = Filo
 Pokedex = Su séquito son los Pawniard. Acorralan a su presa con todo el grupo y Bisharp propina el golpe de gracia.
 Generation = 5
-Evolutions = KINGAMBIT,LevelDefeatItsKindWithItem,LEADERSCREST
+Evolutions = KINGAMBIT,LevelDefeatItsKindWithItem,LEADERSCREST,KINGAMBIT,Level,45
 #-------------------------------
 [BOUFFALANT]
 Name = Bouffalant
