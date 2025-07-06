@@ -1246,12 +1246,10 @@ Pokemon = ABSOL,44
 [RAPHAEL,Raphael]
 LoseText = Y si hacemos un pacto...
 Pokemon = GRIMMSNARL,45
-	Item = LIGHTCLAY
 	AbilityIndex = 0
 	Moves = REFLECT,LIGHTSCREEN,FOULPLAY,THUNDERWAVE
 Pokemon = MOLTRES,45
 	Form = 1
-	Item = BLACKGLASSES
 	Moves = FIERYWRATH,TAILWIND,NASTYPLOT
 Pokemon = GIRATINA,45
 	Item = GRISEOUSCORE
@@ -1260,7 +1258,6 @@ Pokemon = HOUNDOOM,45
 	Form = 1
 	Moves = NASTYPLOT,FIREBLAST,DARKPULSE,SLUDGEBOMB
 Pokemon = YVELTAL,45
-	Item = LIFEORB
 	Moves = SNARL,OBLIVIONWING,FOULPLAY
 #-------------------------------
 [TUBER_M,Jhonny]
