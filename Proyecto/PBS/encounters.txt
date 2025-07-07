@@ -464,6 +464,14 @@ Cave,5
 RockSmash,100
     100,PIKACHU,50,55
 #-------------------------------
+[104] # Kike gym
+Water,2
+    100,PIKACHU,50,53
+OldRod
+    100,PIKACHU,5,10
+SuperRod
+    100,PIKACHU,50,53
+#-------------------------------
 [120] # Boss arena
 RockSmash,100
     100,PIKACHU,50,55
